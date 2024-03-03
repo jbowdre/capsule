@@ -1,0 +1,46 @@
+name: Deploy Gemini Capsule
+
+# only run on changes to main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency: # prevent concurrent deploys doing strange things
+  group: deploy-gemini-capsule
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    name: Deploy Gemini Capsule
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install gempost
+        uses: baptiste0928/cargo-install@v3.0.0
+        with:
+          crate: gempost
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Gempost build
+        run: gempost build
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_API_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_API_CLIENT_SECRET }}
+          tags: ${{ secrets.TS_TAG }}
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          name: id_rsa
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+      - name: Deploy GMI to Agate
+        run: |
+          rsync -avz --delete --exclude='*.html' --exclude='*.css' --exclude='*.js' -e ssh public/ deploy@${{ secrets.GMI_HOST }}:${{ secrets.GMI_CONTENT_PATH }}
