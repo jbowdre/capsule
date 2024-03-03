@@ -1,0 +1,5 @@
+# John's Capsule
+
+This is an example homepage for your capsule.
+
+=> /gemlog Gemlog
