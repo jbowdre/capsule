@@ -1,5 +1,12 @@
 # John's Capsule
 
-This is an example homepage for your capsule.
+Here's my new Gemini capsule.
 
+## About
+// todo
+
+## Updates
 => /gemlog Gemlog
+
+## More
+=> gemini://gmi.runtimeterror.dev [runtimeterror]
