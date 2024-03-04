@@ -39,10 +39,10 @@ feed_path: "/gemlog/atom.xml"
 title: "John's Capsule"
 
 # The gemini:// URL of your capsule's homepage (required).
-url: "gemini://gem.jbowdre.lol"
+url: "gemini://log.jbowdre.lol"
 
 # A subtitle for your gemlog (optional).
-subtitle: "My personal gemlog about cool stuff"
+subtitle: "Short notes on stuff I've learned/thought/done lately"
 
 # The copyright and licensing information for your gemlog (optional).
 rights: "CC BY-SA"
@@ -51,4 +51,4 @@ rights: "CC BY-SA"
 author:
   name: "John Bowdre" # Required
   email: "jbowdre@omg.lol" # Optional
-  uri: "gemini://gem.jbowdre.lol" # Optional
+  uri: "gemini://log.jbowdre.lol" # Optional
