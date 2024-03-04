@@ -1,0 +1,33 @@
+I've been using (and loving) fish shell for a little while now, and I still frequently discover clever behaviors that make my CLI tasks more enjoyable.
+
+=> https://fishshell.com/ fish shell
+
+Today's discovery: fish will automatically escape single quotes when pasting text into the command line.
+
+=> https://fishshell.com/docs/current/cmds/fish_clipboard_paste.html fish_clipboard_paste - get text from the system’s clipboard
+
+> If it outputs to the commandline, it will automatically escape the output if the cursor is currently inside single-quotes so it is suitable for single-quotes (meaning it escapes ' and \\).
+
+So if I work up an ugly one-liner for determining the IP address of whatever interface is attached to the default route:
+
+```
+ip addr show $(ip route | grep default | awk '{print $5}') | grep 'inet ' | awk '{print $2}' | cut -d/ -f1
+```
+
+And then decide I'd like to make that into a reusable alias, I can copy that line and paste it in after
+
+=> https://fishshell.com/docs/current/cmds/alias.html alias - create a function
+
+```
+alias get_ip='
+```
+
+and fish will automagically take care of escaping all those troublesome single quotes
+
+```
+alias get_ip='ip addr show $(ip route | grep default | awk '{print $5}') | grep 'inet ' | awk '{print $2}' | cut -d/ -f1'
+```
+
+Neat!
+
+=> /res/2024-02-01-fish-screenshot.png Image: Command-line interface displaying text commands and outputs for IP address configurations.

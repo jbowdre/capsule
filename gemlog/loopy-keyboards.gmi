@@ -1,0 +1,24 @@
+I'm such a sucker for absolutely bonkers software keyboards for mobile phones.
+
+I used (and kind of loved) a bunch of different keyboards back in the day, including the super-low-profile Minuum and gesture-powered Fleksy. But one of the wildest (and most interesting) keyboards I tried was 8pen.
+
+=> http://minuum.com/ Minuum keyboard
+=> https://www.app.fleksy.com/ Fleksy keyboard
+=> https://www.youtube.com/watch?v=q3OuCR0EpGo 8pen keyboard
+
+Seriously, look at this ridiculous layout:
+
+=> /res/images/2024-02-12-8pen-layout.png Image: Colored lines intersect behind a magnifying glass, which centers on letters and symbols arranged in a circle on a white background - but it's a keyboard, somehow?
+
+It's wild, right? Once I figured out how to use it, I got to be pretty fast and accurate at text entry - and it's designed in such a way that (once you learn it) you don't have to look at the keyboard at all.
+
+8pen was (perhaps predictably) abandoned at some point, but I just discovered that there's a refreshed, expanded, and open-source clone of it now:
+
+=> https://github.com/8VIM/8VIM 8vim on GitHub
+=> https://play.google.com/store/apps/details?id=inc.flide.vi8 8vim on Google Play
+
+It's also been enhanced with Vim-inspired editor ability, or something.
+
+I used 8vim to type (some) of this message and it only took forever. I'm sure I will get the hang of this again in no time.
+
+=> /res/images/2024-02-12-8vim-keyboard.png Image: A smartphone screen displaying a text editor app with a unique keyboard layout. The text discusses an open-source clone of an abandoned project, 8vim Keyboard, and mentions the user's experience adapting to it.

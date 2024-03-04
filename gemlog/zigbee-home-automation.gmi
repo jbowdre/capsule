@@ -1,0 +1,18 @@
+In addition to tinkering with and documenting the weather integration on my omg.lol page, this weekend I also shifted how my Home Assistant instance manages Zigbee devices.
+
+=> https://runtimeterror.dev/display-tempest-weather-static-site/ runtimeterror: Displaying Data from a Tempest Weather Station on a Static Site
+
+I had been using the deCONZ add-on and integration with a Phoscon ConBee II stick for several years. This setup has been fairly functional, but having to drill down into a separate web app (or, worse: a nested VNC session) to manage the Zigbee network was kind of a buzz kill.
+
+=> https://www.home-assistant.io/integrations/deconz/ deCONZ Integration
+=> https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5 Phoscon ConBee II Universal Zigbee Gateway
+
+So this weekend I decided to switch over to the Zigbee Home Automation integration. ZHA brings Zigbee coordination directly to Home Assistant rather than just connecting in third-party software to handle that role.
+
+=> https://www.home-assistant.io/integrations/zha/ Zigbee Home Automation Integration
+
+I only have a small handful of Zigbee devices so I wasn't too worried about the migration process, but at the same time I am pleased to report that it went fairly smoothly. I took a backup of the deCONZ config (just in case), stopped the deCONZ add-on (without removing the integration, just in case), installed the ZHA integration, and pointed it to the same ConBee stick. All of my lights and switches were discovered immediately, and I was able to get the new entities assigned to the correct rooms without any fuss. Battery-powered devices like the water leak sensors needed to be manually paired, but those also came in pretty quickly once the correct button was pressed.
+
+Then it was just a matter of updating my various automations and scenes with the new entity identifiers. This was also a great opportunity to clean up some of those long-neglected automations, and they're not working better than ever.
+
+I'm really pleased with this change, and only wish I'd performed the migration sooner. Zigbee feels like a first-class citizen in Home Assistant now, so I'll definitely be looking to acquire more devices soon.

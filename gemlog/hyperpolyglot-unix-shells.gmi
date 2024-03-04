@@ -1,0 +1,4 @@
+I primarily use fish shell on the systems I own, but many of the systems I manage don't include fish so I have to use bash, zsh, or something more exotic. It can be hard to keep track of how to translate expressions and conventions between shells.
+
+This handy-dandy reference should help:
+=> https://hyperpolyglot.org/unix-shells Hyperpolyglot: Unix Shells

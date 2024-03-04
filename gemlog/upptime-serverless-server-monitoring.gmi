@@ -1,0 +1,19 @@
+While tinkering with something unrelated last night, I stumbled upon a service status page provided by Upptime. I thought it looked neat, and then I dug into it a bit more, and now I think it's really neat.
+
+=> https://upptime.js.org/ Upptime Homepage
+=> https://upptime.js.org/docs/ Upptime Documentation
+
+Most other (self-hosted/managed) uptime monitoring solutions I've played with require deploying a server (or container) to monitor your other servers. _Who monitors the monitors?_
+
+Upptime is a bit different. It operates as a set of GitHub Actions to check the configured sites every 5 minutes, and it stores the results in a version-controlled repository. It uses GitHub Pages to generate a really nice-looking status page which provides historical uptime as well as response times, complete with pretty graphs. If something goes down, Upptime automatically creates an Issue in the repo to track the problem, and it can also send an alert via email or Slack or Discord or a number of other methods (though it doesn't currently support ntfy). And if any of Upptime's workflows fail, you'll get a notification through GitHub, too (monitor: monitored).
+
+=> https://github.com/orgs/upptime/discussions/862 Upptime Discussion: Ntfy.sh notification support
+
+It didn't take much tinkering to get Upptime configured and operational for keeping tabs on some of my public sites, and I'm rather pleased with how well it works:
+
+=> https://status.runtimeterror.dev/ "Upptime Terror", the status page for my public sites
+
+=> /res/upptime-screenshot.png Image: Green-themed website status page displaying real-time data from a GitHub repository. It shows a 100% uptime for various services with average response times ranging from 545 ms to 747 ms.
+
+Check out the docs to learn more:
+=> https://upptime.js.org/docs/ Upptime Documentation

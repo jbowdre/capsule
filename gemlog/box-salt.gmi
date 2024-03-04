@@ -1,0 +1,30 @@
+Last year, I figured out how to use HashiCorp Vagrant to provision and manage virtual machines on a Chromebook. I used that for some lightweight tinkering and to learn a bit more about how to use Salt for configuration management in a safe and self-contained environment.
+
+=> gemini://gmi.runtimeterror.dev/create-vms-chromebook-hashicorp-vagrant/ runtimeterror: Create Virtual Machines on a Chromebook with HashiCorp Vagrant
+=> https://docs.saltproject.io/en/master/topics/tutorials/walkthrough.html#salt-in-10-minutes/ Salt in 10 Minutes
+
+Well, I'm about to need to do a lot more Salt work, so last night I decided to refresh my Vagrant setup a bit. I switched to using some newer machine images ("boxes"), and made some tweaks to support the latest "onedir" Salt releases. Being able to quickly spin up/down a lab environment with minions running various Linux flavors is a huge help to my development process.
+
+=> https://docs.saltproject.io/salt/install-guide/en/latest/topics/upgrade-to-onedir.html#what-is-onedir Salt Documentation: What is onedir?
+
+```
+$ vagrant status
+Current machine states:
+
+salt           running (libvirt)  # master, ubuntu 22.04
+minion01       running (libvirt)  # ubuntu 22.04
+minion02       running (libvirt)  # ubuntu 20.04
+minion03       running (libvirt)  # rocky 8
+minion04       running (libvirt)  # rocky 9
+```
+
+To make it easier to deploy, test, break, tear down, and redeploy the environment:
+* The Salt master blindly auto-accepts all minion keys.
+* The minions register the roles:saltlab grain to aid in targeting.
+* The master uses gitfs to pull the starter Salt content from this very Github repo.
+* Additionally, the contents of `salt_content/local` get rsynced to `/srv/` when the master starts up to make it easier to write/test Salt content locally. This is a one-way rsync from host to VM (and not the other way around), so make sure to write your Salt content on the host and use `vagrant rsync` to push changes into the VM.
+
+The full details of this setup are in my GitHub:
+=> https://github.com/jbowdre/vagrant-saltlab vagrant-saltlab: A small Vagrant lab environment for learning Salt
+
+Okay, back to work!
