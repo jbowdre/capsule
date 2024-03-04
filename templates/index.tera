@@ -11,10 +11,23 @@
 
 {% if feed.subtitle -%}
 ## {{ feed.subtitle }}
-
 {% endif -%}
 
 {% for entry in feed.entries -%}
 => {{ entry.url }} {{ entry.updated | date(format="%Y-%m-%d") }} - {{ entry.title }}
-{% endfor %}
+
+{%- if entry.categories -%}
+{% for category in entry.categories %}#{{ category }}{% if not loop.last%} {% endif %}{% endfor %}
+
+{% endif %}
+
+{%- endfor %}
+
+─────
+
 => {{ feed.feed_url }} Atom feed
+=> {{ feed.capsule_url }} Home
+
+{% if feed.rights -%}
+{{ feed.rights }}
+{%- endif %}
