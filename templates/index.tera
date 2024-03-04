@@ -1,5 +1,5 @@
 {#
-  This is an example of a Tera template for your gemlog's index page.
+  Tera template for your gemlog's index page.
 
   This example formats your index page in the standard gemsub format that
   Gemini clients can subscribe to. Note that gempost already generates an Atom
@@ -23,8 +23,8 @@
 
 ─────
 
-=> {{ feed.feed_url }} Atom feed
-=> {{ feed.capsule_url }} Home
+=> {{ feed.feed_url }} [atom feed]
+=> {{ feed.capsule_url }} [home]
 
 {% if feed.rights -%}
 {{ feed.rights }}

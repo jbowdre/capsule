@@ -1,7 +1,7 @@
 {#
   Tera template for each individual post.
-#}# {{ entry.title }}
-
+#}=> {{ feed.capsule_url }} [home]
+# {{ entry.title }}
 {% if entry.published != entry.updated -%}
 * {{ entry.published | date(format="%Y-%m-%d") }} ~ {{ entry.updated | date(format="%Y-%m-%d") }}
 {% else -%}
@@ -13,8 +13,8 @@
 {{ entry.body }}
 ─────
 
-=> {{ feed.index_url }} Posts
-=> {{ feed.capsule_url }} Home
+=> {{ feed.index_url }} [posts]
+=> {{ feed.capsule_url }} [home]
 
 {% if feed.rights -%}
 {{ feed.rights }}

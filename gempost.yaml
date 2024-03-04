@@ -36,13 +36,13 @@ index_path: "/gemlog/index.gmi"
 feed_path: "/gemlog/atom.xml"
 
 # The title of your gemlog (required).
-title: "John's Capsule"
+title: "🛰jbowdre's (gemini)space capsule"
 
 # The gemini:// URL of your capsule's homepage (required).
 url: "gemini://capsule.jbowdre.lol/"
 
 # A subtitle for your gemlog (optional).
-subtitle: "Short notes on stuff I've learned/thought/done lately"
+subtitle: "short notes on stuff i've learned/thought/done lately"
 
 # The copyright and licensing information for your gemlog (optional).
 rights: "CC BY-SA"

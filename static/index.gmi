@@ -1,5 +1,5 @@
-# John's Capsule
-> I write code to make imaginary computers run code written by less imaginary developers
+# 🛰jbowdre's (gemini)space capsule
+> i write code to make imaginary computers run code written by less imaginary developers
 
 ## > /dev/stdout
 => /gemlog gemlog
@@ -17,4 +17,4 @@
 => https://url.jbowdre.lol/signal signal
 => https://url.jbowdre.lol/xmpp xmpp
 => mailto:jbowdre@omg.lol email
-=> https://url.jbowdre.lol/pgp [pgp]
+=> https://url.jbowdre.lol/pgp 🔑pgp
