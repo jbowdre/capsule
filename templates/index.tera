@@ -18,10 +18,8 @@
 
 {%- if entry.categories -%}
 {% for category in entry.categories %}#{{ category }}{% if not loop.last%} {% endif %}{% endfor %}
-
 {% endif %}
-
-{%- endfor %}
+{% endfor %}
 
 ─────
 
