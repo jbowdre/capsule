@@ -13,7 +13,7 @@ It didn't take much tinkering to get Upptime configured and operational for keep
 
 => https://status.runtimeterror.dev/ "Upptime Terror", the status page for my public sites
 
-=> /res/upptime-screenshot.png Image: Green-themed website status page displaying real-time data from a GitHub repository. It shows a 100% uptime for various services with average response times ranging from 545 ms to 747 ms.
+=> /res/2024-01-30-upptime-screenshot.png Image: Green-themed website status page displaying real-time data from a GitHub repository. It shows a 100% uptime for various services with average response times ranging from 545 ms to 747 ms.
 
 Check out the docs to learn more:
 => https://upptime.js.org/docs/ Upptime Documentation

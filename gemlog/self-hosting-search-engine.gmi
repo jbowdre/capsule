@@ -6,7 +6,7 @@ I've lately been playing a bit with a self-hosted instance of SearXNG, an utterl
 Rather than maintaining its own index or running its own crawlers (as something like YaCy does), SearXNG simply asks other engines for their results to a given query (remember Dogpile from back in the day?). The really cool thing with SearXNG is that it also gives you, the user, a whole lot of control over what engines it uses to create its aggregated results.
 
 => https://yacy.net/ YaCy homepage
-=> /res/images/2024-02-21-searxng-prefs.png Image: SearXNG Preferences page listing some of the available search engines
+=> /res/2024-02-21-searxng-prefs.png Image: SearXNG Preferences page listing some of the available search engines
 
 It's pretty neat, and the results so far have been fairly decent. If you'd like to give it a try, my instance is at grep.vim.wtf. (At least until I get bored with it.)
 
