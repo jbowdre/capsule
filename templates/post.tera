@@ -1,8 +1,21 @@
 {#
-  This is an example of a Tera template for each individual post.
-
-  This is a minimal example that just adds a header with the title from the
-  sidecar YAML metadata file.
+  Tera template for each individual post.
 #}# {{ entry.title }}
 
+{% if entry.published != entry.updated -%}
+* {{ entry.published | date(format="%Y-%m-%d") }} ~ {{ entry.updated | date(format="%Y-%m-%d") }}
+{% else -%}
+* {{ entry.updated | date(format="%Y-%m-%d") }}
+{% endif -%}
+{% if entry.categories -%}
+* Categories: {{ entry.categories | join(sep=", ") }}
+{% endif %}
 {{ entry.body }}
+─────
+
+=> {{ feed.index_url }} Posts
+=> {{ feed.capsule_url }} Home
+
+{% if feed.rights -%}
+{{ feed.rights }}
+{%- endif %}

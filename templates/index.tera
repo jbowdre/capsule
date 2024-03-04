@@ -14,7 +14,7 @@
 {% endif -%}
 
 {% for entry in feed.entries -%}
-=> {{ entry.url }} {{ entry.updated | date(format="%Y-%m-%d") }} - {{ entry.title }}
+=> {{ entry.url }} {{ entry.updated | date(format="%Y-%m-%d") }} {{ entry.title }}
 
 {%- if entry.categories -%}
 {% for category in entry.categories %}#{{ category }}{% if not loop.last%} {% endif %}{% endfor %}
