@@ -39,7 +39,7 @@ feed_path: "/gemlog/atom.xml"
 title: "John's Capsule"
 
 # The gemini:// URL of your capsule's homepage (required).
-url: "gemini://capsule.jbowdre.lol"
+url: "gemini://capsule.jbowdre.lol/"
 
 # A subtitle for your gemlog (optional).
 subtitle: "Short notes on stuff I've learned/thought/done lately"
