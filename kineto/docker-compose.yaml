@@ -1,0 +1,11 @@
+services:
+  kineto:
+    restart: always
+    build: .
+    container_name: kineto
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./style.css:/app/style.css
+    command: -s style.css gemini://capsule.jbowdre.lol
+
