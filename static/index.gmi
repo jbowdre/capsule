@@ -1,12 +1,20 @@
 # John's Capsule
+> I write code to make imaginary computers run code written by less imaginary developers
 
-Here's my new Gemini capsule.
+## > /dev/stdout
+=> /gemlog gemlog
+=> gemini://gmi.runtimeterror.dev techy blog posts
+=> https://github.com/jbowdre code and kludges
 
-## About
-// todo
+## > /dev/net
+=> https://counter.social/@john_b counter.social
+=> https://social.lol/@jbowdre social.lol
+=> https://jbowdre.lol/now /now
 
-## Updates
-=> /gemlog Gemlog
-
-## More
-=> gemini://gmi.runtimeterror.dev [runtimeterror]
+## > /dev/stdin
+=> https://url.jbowdre.lol/matrix matrix
+=> gemini://gmi.runtimeterror.dev/simplex simplex
+=> https://url.jbowdre.lol/signal signal
+=> https://url.jbowdre.lol/xmpp xmpp
+=> mailto:jbowdre@omg.lol email
+=> https://url.jbowdre.lol/pgp [pgp]
