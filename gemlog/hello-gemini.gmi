@@ -1,3 +1,27 @@
 This is my new Gemini capsule.
 
-There are many like it but this one is mine.
+> There are many like it but this one is mine.
+
+I recently discovered Gemini, which is a sort of re-imagining of the World Wide Web with a deliberate emphasis on simplicity and efficiency, and without a lot of the problems we've gotten used to on the modern web. It's kind of a back-to-basics approach, while still being built with security at its core.
+
+=> gemini://geminiquickst.art/ Gemini Quickstart
+=> gemini://geminiprotocol.net/docs/faq.gmi Project Gemini FAQ
+
+I thought it sounded like a pretty neat idea, and the more I dug into it the more excited I became. So here we are: I've deployed a self-hosted Capsule (Gemini speak for "website") that I intend to use for posting a Gemlog (Gemini for "blog") as well as a basic profile page in Geminispace (Gemini for "the web").
+
+And, through the magic of a kineto proxy, this Capsule is also available on the traditional web. If you visit `gemini://capsule.jbowdre.lol`, you'll get the Gemini representation; visit `https://capsule.jbowdre.lol` and you'll see a version translated for your <ahem> legacy browser. Kineto will also proxy any other Gemini Capsules that I link. Pretty slick, right?
+
+=> https://sr.ht/~sircmpwn/kineto/ Kineto on sourcehut
+
+This will likely replace my "Scribbles 'n Bits" blog, and I've already ported over most of that content. I do _really_ like the Scribbles platform, but I like the idea of cross-posting to both Gemini and the standard web more. I give up the polished look, slick styling, and easy web-based posting, but I feel like self-hosting this Capsule gives me more control and ownership over my content.
+
+=> https://scribbles.jbowdre.lol Scribbles 'n Bits
+=> https://scribbles.page Scribbles blogging platform
+
+Along the way, I also found a way to leverage Hugo's custom output formats to build my runtimeterror site for Gemini without needing extra tooling. I'm *not* going to shift that site to favor Gemini beyond that (those technical posts can really benefit from the additional markup which isn't supported on Gemini).
+
+=> gemini://gmi.runtimeterror.dev runtimeterror on Gemini
+
+I'll be sharing more details about that (and how I'm hosting this Capsule) soon. But for now, I just wanted to say hi.
+
+Hi!

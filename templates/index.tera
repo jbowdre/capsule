@@ -4,8 +4,7 @@
 
 {% if feed.subtitle -%}
 ## {{ feed.subtitle }}
-{% endif -%}
-
+{% endif %}
 {% for entry in feed.entries -%}
 => {{ entry.url }} {{ entry.updated | date(format="%Y-%m-%d") }} {{ entry.title }}
 
@@ -13,7 +12,6 @@
 {% for category in entry.categories %}#{{ category }}{% if not loop.last%} {% endif %}{% endfor %}
 {% endif %}
 {% endfor %}
-
 ─────
 
 => {{ feed.feed_url }} [atom feed]
