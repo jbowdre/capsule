@@ -1,4 +1,4 @@
-# 🛰jbowdre's (gemini)space capsule
+# 🚀jbowdre's (gemini)space capsule
 > i write code to make imaginary computers run code written by less imaginary developers
 
 ## > /dev/stdout
