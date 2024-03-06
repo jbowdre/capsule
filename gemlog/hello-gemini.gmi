@@ -9,7 +9,18 @@ I recently discovered Gemini, which is a sort of re-imagining of the World Wide 
 => gemini://geminiprotocol.net/docs/faq.gmi Project Gemini FAQ
 => gemini://geminiquickst.art/ Gemini Quickstart
 
-I thought it sounded like a pretty neat idea, and the more I dug into it the more excited I became. So here we are: I've deployed a self-hosted Capsule (Gemini speak for "website") that I intend to use for posting a Gemlog (Gemini for "blog") as well as a basic profile page in Geminispace (Gemini for "the web").
+I thought it sounded like a pretty neat idea, and the more I dug into it the more excited I became. Gemini has some really interesting properties:
+* Security is baked into the Gemini protocol, and TLS encryption is required for all connections.
+* There's no CSS or other styling; styling is determined entirely by the Gemini client. Users are in control of how their Gemini experience is styled, and that means everything is styled consistently no matter where you go.
+* There's no client-side scripting, which means no ads, tracking, or bloated pages. The text content is the priority, and pages render immediately.
+* There are no cookies to follow you around, which also means traditional username+password logins aren't typically used. Instead, logins are usually handled via TLS client certificates, and support for managing those certificate-based identities is often a top-level menu option in Gemini clients.
+* Content is solely written in the very simple Gemtext format, which is easy to write, easy to parse (for both humans and machines), and easy to render. Unlike HTML, there aren't complicated tags to keep track of. Unlike Markdown, there's no worrying about how whitespace will be handled.
+
+=> https://geminiprotocol.net/docs/cheatsheet.gmi Gemtext Cheatsheet
+
+That simplicity seems like it might be restrictive, but it's ultimately kind of freeing. You can just focus on writing a thing rather than worrying about how it's going to be presented.
+
+So here we are: I've deployed a self-hosted Capsule (Gemini speak for "website") that I intend to use for posting a Gemlog (Gemini for "blog") as well as a basic profile page in Geminispace (Gemini for "the web").
 
 Since Gemini doesn't use HTTP, you'll need a Gemini client (like Lagrange) to view Gemini Capsules. But through the magic of a kineto proxy, this Capsule is _also_ available on the traditional web. If you visit `gemini://capsule.jbowdre.lol`, you'll get the Gemini representation; visit `https://capsule.jbowdre.lol` and you'll see a version translated for your <ahem> legacy browser. Kineto will also proxy any other Gemini Capsules that I link. Pretty slick, right?
 
