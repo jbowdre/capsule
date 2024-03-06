@@ -2,15 +2,18 @@ This is my new Gemini capsule.
 
 > There are many like it but this one is mine.
 
-I recently discovered Gemini, which is a sort of re-imagining of the World Wide Web with a deliberate emphasis on simplicity and efficiency, and without a lot of the problems we've gotten used to on the modern web. It's kind of a back-to-basics approach, while still being built with security at its core.
+I recently discovered Gemini, which is a sort of re-imagining of the World Wide Web with a deliberate emphasis on simplicity and efficiency.
 
-=> gemini://geminiquickst.art/ Gemini Quickstart
+> Gemini is a group of technologies similar to the ones that lie behind your familiar web browser. Using Gemini, you can explore an online collection of written documents which can link to other written documents. The main difference is that Gemini approaches this task with a strong philosophy of "keep it simple" and "less is enough". This allows Gemini to simply sidestep, rather than try and probably fail to solve, many of the problems plaguing the modern web, which just seem to get worse and worse no matter how many browser add-ons or well meaning regulations get thrown at them.
+
 => gemini://geminiprotocol.net/docs/faq.gmi Project Gemini FAQ
+=> gemini://geminiquickst.art/ Gemini Quickstart
 
 I thought it sounded like a pretty neat idea, and the more I dug into it the more excited I became. So here we are: I've deployed a self-hosted Capsule (Gemini speak for "website") that I intend to use for posting a Gemlog (Gemini for "blog") as well as a basic profile page in Geminispace (Gemini for "the web").
 
-And, through the magic of a kineto proxy, this Capsule is also available on the traditional web. If you visit `gemini://capsule.jbowdre.lol`, you'll get the Gemini representation; visit `https://capsule.jbowdre.lol` and you'll see a version translated for your <ahem> legacy browser. Kineto will also proxy any other Gemini Capsules that I link. Pretty slick, right?
+Since Gemini doesn't use HTTP, you'll need a Gemini client (like Lagrange) to view Gemini Capsules. But through the magic of a kineto proxy, this Capsule is _also_ available on the traditional web. If you visit `gemini://capsule.jbowdre.lol`, you'll get the Gemini representation; visit `https://capsule.jbowdre.lol` and you'll see a version translated for your <ahem> legacy browser. Kineto will also proxy any other Gemini Capsules that I link. Pretty slick, right?
 
+=> https://gmi.skyjake.fi/lagrange/ Lagrange
 => https://sr.ht/~sircmpwn/kineto/ Kineto on sourcehut
 
 This will likely replace my "Scribbles 'n Bits" blog, and I've already ported over most of that content. I do _really_ like the Scribbles platform, but I like the idea of cross-posting to both Gemini and the standard web more. I give up the polished look, slick styling, and easy web-based posting, but I feel like self-hosting this Capsule gives me more control and ownership over my content.
