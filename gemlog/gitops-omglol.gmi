@@ -1,0 +1,102 @@
+I've been active on omg.lol ("the best internet address that you’ve ever had") for several months now, and have really been enjoying my stay. omg.lol provides a number of delightfully-simple services, and it ties them together with a friendly API.
+
+=> https://home.omg.lol/ omg.lol homepage
+=> https://api.omg.lol/ omg.lol API documentation
+
+Last month, I made use of the Pastebin API to power near-realtime weather information on my omg.lol profile page:
+
+=> /gemlog/2024-02-08-weather-profile-lol.gmi (Near) Realtime Weather on profile.lol
+
+Last night, I crafted some quick GitHub Actions workflows to talk to the Now Page and Web endpoints and make updates to those pages with simple git commits.
+
+## Benefits
+This brings a few benefits:
+* I can make changes without having to log in to the omg.lol dashboard
+* I can write updates with an editor like VS Code instead of a tiny frame in a web page
+* I'll preserve version-controlled histories of each page in case I break stuff
+* And it opens the doors to additional automation capabilities down the road
+
+## Process
+I wound up with a pair of actions for each page.
+
+### Fetch Now Page
+The first periodically fetches the latest version of the page from the API and commits it to the repo (in case it gets modified outside of git):
+```fetch-now.yml
+name: Fetch Now Page
+on:
+  schedule:
+    - cron: "* */4 * * *"
+
+jobs:
+  fetch-now-page:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Fetch Now Page
+        run: |
+          curl --location --header "Authorization: Bearer ${{ secrets.OMG_TOKEN }}" \
+            "https://api.omg.lol/address/${{ secrets.OMG_ADDR }}/now" | \
+            jq -r .response.now.content > now.md
+      - name: Commit Now Page
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'fetch /now page'
+          file_pattern: 'now.md'
+```
+This will run every four hours, and uses `git-auto-commit-action` to commit new versions of `now.md` as needed.
+
+=> https://github.com/marketplace/actions/git-auto-commit Git Auto Commit on GitHub Marketplace
+
+### Update Now Page
+And the second workflow is used for sending a modified now page back to omg.lol:
+```update-now.yml
+name: Update Now Page
+on:
+  push:
+    paths:
+      - 'now.md'
+
+jobs:
+  update-now-page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Update Now Page
+        run: |
+          request_body='{"listed": "1", "content": '"$(jq -Rsa . now.md)"'}'
+          curl --location --request POST --header "Authorization: Bearer ${{ secrets.OMG_TOKEN }}" \
+            "https://api.omg.lol/address/${{ secrets.OMG_ADDR }}/now" \
+            --data "$request_body"
+```
+This one is triggered by any `git push` with a commit which modifies the `now.md` file.
+
+## Web Updates
+I'm handling the web page updates in basically the same way, with the minor adjustment of needing to manage the web content, css, and custom head independently:
+
+```fetch-web.yaml excerpt
+      - name: Fetch Web Page
+        run: |
+          response=$(curl --location --header "Authorization: Bearer ${{ secrets.OMG_TOKEN }}" \
+            "https://api.omg.lol/address/${{ secrets.OMG_ADDR }}/web" | \
+            jq -r .response)
+          jq -r .content <<< $response > web.md
+          jq -r .css <<< $response > web.css
+          jq -r .head <<< $response > web_head.html
+```
+
+```update-web.yml excerpt
+      - name: Update Web Page
+        run: |
+          request_body='{"publish": true, "content": '"$(jq -Rsa . web.md)"', "css": '"$(jq -Rsa . web.css)"', "head": '"$(jq -Rsa . web_head.html)"'}'
+          curl --location --request POST --header "Authorization: Bearer ${{ secrets.OMG_TOKEN }}" \
+            "https://api.omg.lol/address/${{ secrets.OMG_ADDR }}/web" \
+            --data "$request_body"
+```
+
+The full code (as well as my weather hijinks) are in my lolz repo. Feel free to steal and improve upon it!
+
+=> https://github.com/jbowdre/lolz John's lolz on GitHub
