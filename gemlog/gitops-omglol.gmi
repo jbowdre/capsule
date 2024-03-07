@@ -100,3 +100,8 @@ I'm handling the web page updates in basically the same way, with the minor adju
 The full code (as well as my weather hijinks) are in my lolz repo. Feel free to steal and improve upon it!
 
 => https://github.com/jbowdre/lolz John's lolz on GitHub
+
+And to see the fruits of my labors, check out:
+
+=> https://jbowdre.lol @jbowdre on omg.lol
+=> https://jbowdre.lol/now @jbowdre's /now page
