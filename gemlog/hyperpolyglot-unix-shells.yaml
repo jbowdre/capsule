@@ -2,3 +2,5 @@ id: "urn:uuid:ab1ec906-4ded-483b-b51e-d143d0548d7b"
 title: "Hyperpolyglot: Unix Shells"
 published: "2024-01-26T15:27:00-06:00"
 updated: "2024-01-26T15:27:00-06:00"
+summary: |-
+  I found a handy reference for translating commands and scripts between various Unix shell flavors.

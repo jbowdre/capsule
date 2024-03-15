@@ -2,3 +2,7 @@ id: "urn:uuid:ae09eb2b-e3b6-4b0c-9bbc-256af5df934a"
 title: "Fish Magic"
 published: "2024-02-01T14:40:03-06:00"
 updated: "2024-02-01T14:40:03-06:00"
+summary: |-
+  I've been using (and loving) fish shell for a little while now, and I still frequently discover clever behaviors that make my CLI tasks more enjoyable.
+
+  Today's discovery: fish will automatically escape single quotes when pasting text into the command line.

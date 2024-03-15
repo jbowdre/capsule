@@ -2,3 +2,5 @@ id: "urn:uuid:88e552fa-c892-41d7-8568-593e6d9694b7"
 title: "GitOps for omg.lol"
 published: "2024-03-07T11:40:25-06:00"
 updated: "2024-03-07T11:40:25-06:00"
+summary: |-
+  I set up some GitHub Actions to manage the contents of my omg.lol profile and /now pages.

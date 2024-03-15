@@ -2,3 +2,5 @@ id: "urn:uuid:05e62b8a-d4ef-49b6-a85b-16bd9458dd59"
 title: "(Near) Realtime Weather on profile.lol"
 published: "2024-02-08T23:22:22-06:00"
 updated: "2024-02-08T23:22:22-06:00"
+summary: |-
+  Inspired by Kris's omg.lol profile, I created an API proxy using GitHub Actions to securely fetch and display live weather data from my Weatherflow Tempest station on my own profile, making it both accessible and stylish.

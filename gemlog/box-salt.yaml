@@ -2,3 +2,7 @@ id: "urn:uuid:900a918d-f85d-456f-98e8-26b2eae214c0"
 title: "A Box of Salt"
 published: "2024-02-06T15:06:42-06:00"
 updated: "2024-02-06T15:06:42-06:00"
+summary: |-
+  Last year, I figured out how to use HashiCorp Vagrant to provision and manage virtual machines on a Chromebook. I used that for some lightweight tinkering and to learn a bit more about how to use Salt for configuration management in a safe and self-contained environment.
+
+  Well, I'm about to need to do a lot more Salt work, so last night I decided to refresh my Vagrant setup a bit.
