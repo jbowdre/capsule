@@ -14,7 +14,8 @@
 {% endfor %}
 ─────
 
-=> {{ feed.feed_url }} [atom feed]
+=> {{ feed.feed_url }} [gemini feed]
+=> atom-https.xml [https feed]
 => {{ feed.capsule_url }} [home]
 
 {% if feed.rights -%}
