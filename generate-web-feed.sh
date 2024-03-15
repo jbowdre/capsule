@@ -2,7 +2,9 @@
 set -eu
 
 INFEED="public/gemlog/atom.xml"
-OUTFEED="public/gemlog/atom-https.xml"
+OUTFEED="public/gemlog/atom-web.xml"
 
 # read INFILE, replace gemini:// with https:// and write to OUTFILE
 sed 's/gemini:\/\//https:\/\//g' $INFEED > $OUTFEED
+# fix self url
+sed -i 's/atom\.xml/atom-https\.xml/g' $OUTFEED
