@@ -3,7 +3,7 @@
 
 ## > /dev/stdout
 => /gemlog 📡 gemlog
-=> gemini://gmi.runtimeterror.dev 💻 techy blog posts
+=> gmi.runtimeterror.dev 💻 techy blog posts
 => https://github.com/jbowdre code and kludges
 
 ## > /dev/net
@@ -13,7 +13,7 @@
 
 ## > /dev/stdin
 => https://url.jbowdre.lol/matrix matrix
-=> gemini://gmi.runtimeterror.dev/simplex simplex
+=> gmi.runtimeterror.dev/simplex 💬 simplex
 => https://url.jbowdre.lol/signal signal
 => https://url.jbowdre.lol/xmpp xmpp
 => mailto:jbowdre@omg.lol 📧 email
