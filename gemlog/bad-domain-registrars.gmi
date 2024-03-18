@@ -1,4 +1,4 @@
-I have a small-but-growing collection of domains. Some are used for public projects like this capsule, some find purpose for internal projects, some are used primarily for email addresses, and several more just sit idle waiting for a use.
+I have a small-but-growing collection of domains. Some are used for public projects like this capsule, some find purpose for internal personal projects, some are used primarily for email addresses, and several more just sit idle waiting for a use.
 
 Assembling this collection has taken me through many different domain registrars, with varying levels of user-unfriendliness. If you, as a registrar, do any of (let alone *all* of) the following, know that your business model is hot+wet garbage:
 
@@ -11,8 +11,9 @@ Assembling this collection has taken me through many different domain registrars
 
 Every step of the transfer process at these sorts of registrars is deliberately designed to make it as annoying as possible so that customers will give up and just stay with the shitty registrar. It's gross.
 
-Fortunately, we don't have to do business with shady registrars like that. I've been using Porkbun for more and more of my domains over the past year or so and have been positively delighted by the experience at every step of the way. I've also had a great experience registering domains (and transferring them to/from) Cloudflare. I'm sure there are many other reputable registrars to consider, but Porkbun should be at the top of anyone's list.
+Fortunately, we don't have to do business with shady registrars like that. I've been using Porkbun for more and more of my domains over the past year or so and have been positively delighted by the experience at every step of the way. I've also had a great experience registering domains (and transferring them to/from) Cloudflare. I'm sure there are many other reputable registrars to consider, but I think Porkbun should be at the top of anyone's list. Registering, managing, and transferring domains shouldn't be painful.
 
 => https://porkbun.com/ Porkbun: An Oddly Satisfying Experience
 => https://www.cloudflare.com/products/registrar/ Cloudflare Registrar: Domain registrar with no-markup pricing
 
+On the other hand, if you want a registrar that ticks all the shitty boxes above, gen.xyz is a choice (a bad one).
