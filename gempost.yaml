@@ -36,7 +36,7 @@ index_path: "/gemlog/index.gmi"
 feed_path: "/gemlog/atom.xml"
 
 # The title of your gemlog (required).
-title: "🛰️jbowdre's gemlog"
+title: "📡 jbowdre's gemlog"
 
 # The gemini:// URL of your capsule's homepage (required).
 url: "gemini://capsule.jbowdre.lol/"

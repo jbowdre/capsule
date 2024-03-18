@@ -1,9 +1,9 @@
-# 🚀jbowdre's (gemini)space capsule
+# 🛰 jbowdre's (gemini)space capsule
 > i write code to make imaginary computers run code written by less imaginary developers
 
 ## > /dev/stdout
-=> /gemlog gemlog
-=> gemini://gmi.runtimeterror.dev techy blog posts
+=> /gemlog 📡 gemlog
+=> gemini://gmi.runtimeterror.dev 💻 techy blog posts
 => https://github.com/jbowdre code and kludges
 
 ## > /dev/net
@@ -16,5 +16,5 @@
 => gemini://gmi.runtimeterror.dev/simplex simplex
 => https://url.jbowdre.lol/signal signal
 => https://url.jbowdre.lol/xmpp xmpp
-=> mailto:jbowdre@omg.lol email
-=> https://url.jbowdre.lol/pgp 🔑pgp
+=> mailto:jbowdre@omg.lol 📧 email
+=> https://url.jbowdre.lol/pgp pgp key
