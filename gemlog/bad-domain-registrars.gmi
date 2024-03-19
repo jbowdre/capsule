@@ -2,7 +2,7 @@ I have a small-but-growing collection of domains. Some are used for public proje
 
 Assembling this collection has taken me through many different domain registrars, with varying levels of user-unfriendliness. If you, as a registrar, do any of (let alone *all* of) the following, know that your business model is hot+wet garbage:
 
-* Parking 1000 CNAMEs on newly-registered domains, which then have to be manually removed because you don't offer a user-facing API.
+* Parking 1000 CNAMEs on newly-registered domains, which then have to be manually removed because you don't offer a user-facing API.*
 * Pushing a paid "ID Protection" add-on for domains whose registries already employ WHOIS protection/redaction by default.
 * Requiring users to submit a support ticket to request an EPP/auth code so they can transfer to a registrar that doesn't disrespect its customers.
 * Automatically re-locking a domain when an auth code is requested so that the first transfer attempt will fail.
@@ -16,4 +16,9 @@ Fortunately, we don't have to do business with shady registrars like that. I've 
 => https://porkbun.com/ Porkbun: An Oddly Satisfying Experience
 => https://www.cloudflare.com/products/registrar/ Cloudflare Registrar: Domain registrar with no-markup pricing
 
-On the other hand, if you want a registrar that ticks all the shitty boxes above, gen.xyz is a choice (a bad one).
+On the other hand, if you want a registrar that ticks all the shitty boxes above, gen.xyz is an option.
+
+===
+
+ * Or use a handy utility to nuke 1000 bogus records after shifting DNS responsibilities to Cloudflare:
+=> https://cloudflare-utils.cyberjake.xyz/dns/purge/ DNS Purge - Cloudflare Utilities
