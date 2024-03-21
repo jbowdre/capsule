@@ -1,0 +1,6 @@
+This is a test of the Gemini broadcast system. 
+
+This is only a test.
+
+=> gemini://geminiprotocol.net/history/ Gemini History
+
