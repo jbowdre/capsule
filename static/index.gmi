@@ -17,4 +17,4 @@
 => https://url.jbowdre.lol/signal signal
 => https://url.jbowdre.lol/xmpp xmpp
 => mailto:jbowdre@omg.lol 📧 email
-=> https://url.jbowdre.lol/pgp └── pgp key
+=> https://url.jbowdre.lol/pgp └─ pgp key
