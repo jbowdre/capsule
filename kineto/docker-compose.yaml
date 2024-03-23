@@ -8,4 +8,3 @@ services:
     volumes:
       - ./style.css:/app/style.css
     command: -s style.css gemini://capsule.jbowdre.lol
-

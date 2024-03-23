@@ -1,4 +1,3 @@
-version: "3.9"
 services:
   agate:
     restart: always
@@ -9,4 +8,8 @@ services:
       - ./certs:/var/agate/certs
     ports:
       - "1965:1965"
-    command: --content content --certs certs --addr 0.0.0.0:1965 --hostname gmi.runtimeterror.dev --hostname capsule.jbowdre.lol --lang en-US
+    command: |
+      --content content --certs certs --addr 0.0.0.0:1965 \
+      --hostname gmi.runtimeterror.dev \
+      --hostname capsule.jbowdre.lol \
+      --lang en-US
