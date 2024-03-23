@@ -6,6 +6,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'gemlog/**'
+      - 'static/**'
+      - 'templates/**'
+      - 'gempost.yaml'
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-gemini-capsule
