@@ -1,0 +1,17 @@
+> And get off my lawn.
+
+Over the past several years, there's been this trend for new companies to stand up a Discord server instead of hosting a discussion forum where users can exchange ideas, offer feedback, and provide support to each other.
+
+And I hate it.
+
+For decades, if I had a problem with a software product I could search the internet for the symptoms/errors and could generally find someone else who had encountered the same issue. Often, the results would lead me to a thread on a company's community forum, and that thread would include helpful troubleshooting tips, workarounds, and (often) an official response from the company.
+
+If the issue remained unresolved, I could add any additional details or observations to the thread and subscribe to it to be notified of updates. And because the thread was indexed by popular search engines, it was likely that other users encountering the same problem would be able to find the same thread to figure out the status of the issue.
+
+While Discord does have a search capability, Discord conversations are not typically indexed by external search engines. Users aren't able to find threads discussing their issue without logging in to Discord and searching there, and that leads to new users asking the same questions or raising the same issues over and over again. In larger communities, it can be impossible to keep up with the conversations unless you do nothing but hang out in Discord all day - and if you don't do that, it's easy to miss out on potentially-important information.
+
+And that's not even getting into the toxic behavior and attitudes that seem so prevalant in many Discord communities. The rapid-fire synchronous communication style can make misunderstandings all too easy, and some individuals are so keen to jump on others who don't seem to know as much as they do. Sure, that happens on forums on other communities too, but Discord users seem to get so wrapped up in the moment and devoted to escalating any potential conflicts rather than taking a beat to think through an appropriate response.
+
+Don't get me wrong: I don't hate Discord itself. It can be a great way to keep in touch with a smallish group of friends, or to promote comraderie and socializing within a user group _in addition_ to a more stateful forum.
+
+I just think Discord sucks as a _replacement_ for a forum.
