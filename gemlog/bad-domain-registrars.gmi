@@ -11,10 +11,17 @@ Assembling this collection has taken me through many different domain registrars
 
 Every step of the transfer process at these sorts of registrars is deliberately designed to make it as annoying as possible so that customers will give up and just stay with the shitty registrar. It's gross.
 
-Fortunately, we don't have to do business with shady registrars like that. I've been using Porkbun for more and more of my domains over the past year or so and have been positively delighted by the experience at every step of the way. I've also had a great experience registering domains (and transferring them to/from) Cloudflare. I'm sure there are many other reputable registrars to consider, but I think Porkbun should be at the top of anyone's list. Registering, managing, and transferring domains shouldn't be painful.
+Fortunately, we don't have to do business with shady registrars like that, though it can often be difficult to determine how good/evil a registrar will be until you've already signed up with them - and by that point, shitty registrars will make you fight your way out. Something that can help is to look through the registrar's *publicly available* support docs to see what their policy is for transferring domains out of their registrar. Good registrars will make it easy:
 
-=> https://porkbun.com/ Porkbun: An Oddly Satisfying Experience
-=> https://www.cloudflare.com/products/registrar/ Cloudflare Registrar: Domain registrar with no-markup pricing
+=> https://kb.porkbun.com/article/27-how-to-transfer-domain-from-porkbun-to-another-registrar Porkbun: How to Transfer a Domain From Porkbun to Another Registrar
+=> https://developers.cloudflare.com/registrar/account-options/transfer-out-from-cloudflare/ Cloudflare: Transfer domain from Cloudflare to another registrar
+=> https://www.namecheap.com/support/knowledgebase/article.aspx/258/84/what-should-i-do-to-transfer-a-domain-from-namecheap/ Namecheap: What should I do to transfer a domain from Namecheap?
+
+On the other hand, bad registrars might hide the instructions behind a login and/or insist that you contact support to obtain the auth code:
+=> https://gen.xyz/account/knowledgebase/5/Domain-Management gen.xyz: Can I transfer my domain to another registrar?
+> Submit a ticket to support, requesting your EPP/authorization code
+
+I've been using Porkbun for more and more of my domains over the past year or so and have been positively delighted by the experience at every step of the way. I've also had a great experience registering domains (and transferring them to/from) Cloudflare. I'm sure there are many other reputable registrars to consider, but I think Porkbun should be at the top of anyone's list. Registering, managing, and transferring domains shouldn't be painful.
 
 On the other hand, if you want a registrar that ticks all the shitty boxes above, gen.xyz is an option.
 
