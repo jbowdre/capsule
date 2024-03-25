@@ -23,7 +23,7 @@ On the other hand, bad registrars might hide the instructions behind a login and
 
 I've been using Porkbun for more and more of my domains over the past year or so and have been positively delighted by the experience at every step of the way. I've also had a great experience registering domains (and transferring them to/from) Cloudflare. I'm sure there are many other reputable registrars to consider, but I think Porkbun should be at the top of anyone's list. Registering, managing, and transferring domains shouldn't be painful.
 
-On the other hand, if you want a registrar that ticks all the shitty boxes above, gen.xyz is an option.
+But if you really want a registrar that ticks all the shitty boxes above, gen.xyz is an option.
 
 ===
 
