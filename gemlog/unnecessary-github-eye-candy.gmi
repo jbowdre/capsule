@@ -1,0 +1,62 @@
+While futzing around a bit yesterday, I came across a GitHub profile which showed a purple "snake" eating its way through the user's contributions grid. I laughed at how unnecessary this was, and then promptly set about adding it to my own profile page.
+
+=> https://github.com/jbowdre jbowdre on GitHub
+=> /res/2024-03-28-github-profile.png Profile screenshot
+
+It turned out to be really easy to do, thanks to the snk action from Platane:
+
+=> https://github.com/Platane/snk Platane/snk on GitHub
+
+Here's the workflow I worked up to implement it on my page:
+
+```.github/workflows/snek.yml
+name: mek snek
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  snek:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: checkout den
+        uses: actions/checkout@v2
+      - name: generate snek
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            res/light-snek.svg
+            res/dark-snek.svg?palette=github-dark
+            res/light-snek.gif
+            res/dark-snek.gif?palette=github-dark
+      - name: save snek
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'mek snek'
+          file_pattern: 'res/*.svg res/*.gif'
+```
+
+And then just insert it to my readme like so:
+
+```readme.md
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jbowdre/jbowdre/main/res/dark-snek.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jbowdre/jbowdre/main/res/light-snek.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jbowdre/jbowdre/main/res/light-snek.svg">
+</picture>
+
+_distracting eye candy courtesy of [Platane/snk](https://github.com/Platane/snk)_
+```
+
+So unnecessary, but I'm *so* entertained.
+
+=> https://github.com/jbowdre/jbowdre jbowdre/jbowdre on GitHub
