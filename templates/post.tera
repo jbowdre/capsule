@@ -11,6 +11,8 @@
 * Categories: {{ entry.categories | join(sep=", ") }}
 {% endif %}
 {{ entry.body }}
+
+=> mailto:capsule@jbowdre.lol?subject=Re:%20{{ entry.title | slugify }} 📧 Reply via email
 ─────
 
 => {{ feed.index_url }} [posts]
