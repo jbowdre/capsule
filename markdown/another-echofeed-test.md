@@ -4,8 +4,8 @@ published: "2024-04-13T23:32:47.000000Z"
 updated: "2024-04-13T23:32:47.000000Z"
 ---
 
-This is a quick post to see if this [absolute nonsense](https://github.com/jbowdre/capsule/blob/main/.github/workflows/markdown2gempost.yml) I have cobbled together actually works.  
-  
+This is a quick post to see if this [absolute nonsense](https://github.com/jbowdre/capsule/blob/main/.github/workflows/markdown2gempost.yml) I have cobbled together actually works.
+
 If it works:
 
 - [EchoFeed](https://echofeed.app/) will see this post in my Scribbles RSS feed, and relay it to my GitHub repo as a Markdown file.
