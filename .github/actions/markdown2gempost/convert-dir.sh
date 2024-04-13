@@ -35,6 +35,9 @@ for file in "$input_dir"/*.md; do
     fi
   fi
 
+  # Remove empty/trailing spaces
+  sed -i 's/[ \t]*$//' "$input_dir/$file"
+
   # Convert Markdown to GMI
   /usr/local/bin/md2gmi -i "$input_dir/$file" -o "$output_dir/${file%.md}.gmi"
   # Remove first line (and blank lines which follow) from output file (gempost will render the title)
