@@ -6,7 +6,7 @@ if [ $# -ne 3 ]; then
   exit 1
 fi
 
-# strip trailing slashes from input and output directories
+# Strip trailing slashes from input and output directories
 input_dir="${1%/}"
 output_dir="${2%/}"
 processed_dir="${3%/}"
@@ -21,6 +21,9 @@ fi
 # Iterate over .md files in input directory
 for file in "$input_dir"/*.md; do
   file=$(basename "$file")
+
+  # Convert yucky line endings
+  dos2unix "$input_dir/$file"
 
   # Extract frontmatter and dump it to YAML file
   echo "id: \"urn:uuid:$(uuidgen)\"" > "$output_dir/${file%.md}.yaml"
