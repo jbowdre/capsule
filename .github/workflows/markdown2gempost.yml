@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'markdown/**'
+      - 'markdown/incoming/**'
 
 concurrency:
   group: md2gmi
