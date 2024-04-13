@@ -13,3 +13,4 @@ runs:
   args:
     - ${{ inputs.input-dir }}
     - ${{ inputs.output-dir }}
+    - ${{ inputs.processed-dir }}
