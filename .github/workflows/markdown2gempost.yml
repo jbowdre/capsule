@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'markdown/**'
+
+concurrency:
+  group: md2gmi
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  md2gmi:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/markdown2gempost
+        with:
+          input-dir: 'markdown'
+          output-dir: 'gemlog'
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'convert Markdown post to Gempost'
+          file_pattern: 'gemlog/*.gmi gemlog/*.yaml'
+

@@ -1,0 +1,15 @@
+name: 'Markdown to Gempost'
+description: 'Convert Markdown posts to Gemini posts with YAML sidecars for use with Gempost'
+inputs:
+  input-dir:
+    description: 'The directory containing markdown files'
+    required: true
+  output-dir:
+    description: 'The directory to write gemini files to'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.input-dir }}
+    - ${{ inputs.output-dir }}
