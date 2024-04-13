@@ -1,3 +1,5 @@
+name: "Markdown to Gempost"
+
 on:
   workflow_dispatch:
   push:
@@ -23,10 +25,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/markdown2gempost
         with:
-          input-dir: 'markdown'
+          input-dir: 'markdown/incoming'
           output-dir: 'gemlog'
+          processed-dir: 'markdown'
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'convert Markdown post to Gempost'
-          file_pattern: 'gemlog/*.gmi gemlog/*.yaml'
 
