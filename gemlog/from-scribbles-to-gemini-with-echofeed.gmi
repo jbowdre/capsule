@@ -1,9 +1,10 @@
-I [posted *almost* a month ago](https://scribbles.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh) that I was pausing my Scribblesing while I focused on further adventures in Geminispace[1]. But then Robb Knight[2] went and released the much-anticipated EchoFeed[3], and I thought it might be fun to see if I could feed my Gemini capsule[4] from Scribbles.
+I posted *almost* a month ago[1] that I was pausing my Scribblesing while I focused on further adventures in Geminispace[2]. But then Robb Knight[3] went and released the much-anticipated EchoFeed[4], and I thought it might be fun to see if I could feed my Gemini capsule[5] from Scribbles.
 
-=> https://geminiprotocol.net/ 1: Geminispace
-=> https://robb.omg.lol/ 2: Robb Knight
-=> https://echofeed.app 3: EchoFeed
-=> https://capsule.jbowdre.lol 4: Gemini capsule
+=> https://scribbles.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh 1: posted almost a month ago
+=> https://geminiprotocol.net/ 2: Geminispace
+=> https://robb.omg.lol/ 3: Robb Knight
+=> https://echofeed.app 4: EchoFeed
+=> https://capsule.jbowdre.lol 5: Gemini capsule
 
 After tinkering with it quite a bit today, I think I've got a working (if not particularly elegant) solution.
 
