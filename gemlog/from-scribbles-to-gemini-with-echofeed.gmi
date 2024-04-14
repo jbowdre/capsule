@@ -1,0 +1,17 @@
+I [posted *almost* a month ago](https://scribbles.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh) that I was pausing my Scribblesing while I focused on further adventures in Geminispace[1]. But then Robb Knight[2] went and released the much-anticipated EchoFeed[3], and I thought it might be fun to see if I could feed my Gemini capsule[4] from Scribbles.
+
+=> https://geminiprotocol.net/ 1: Geminispace
+=> https://robb.omg.lol/ 2: Robb Knight
+=> https://echofeed.app 3: EchoFeed
+=> https://capsule.jbowdre.lol 4: Gemini capsule
+
+After tinkering with it quite a bit today, I think I've got a working (if not particularly elegant) solution.
+
+Now, when EchoFeed sees a new post on my Scribbles feed, it copies the post to a Markdown file in the GitHub repo[1] I use for my capsule. A GitHub Actions workflow is triggered by the creation of that new Markdown file and converts it to the Gemtext format, complete with a YAML sidecar to hold metadata for gempost[2], a static site generator for Gemini. And then the creation of *that* file triggers another workflow which uses gempost to build the site and then push it to my server.
+
+=> https://github.com/jbowdre/capsule 1: GitHub repo
+=> https://github.com/justlark/gempost 2: gempost
+
+Now I get to check out all the cool new stuff Vincent has been adding to Scribbles[1] while still maintaining a presence on the altweb. Very exciting! 
+=> https://scribbles.page/updates 1: cool new stuff Vincent has been adding to Scribbles
+
