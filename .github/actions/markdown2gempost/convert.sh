@@ -11,13 +11,6 @@ input_dir="${1%/}"
 output_dir="${2%/}"
 processed_dir="${3%/}"
 
-# Find all .md files and check if the array is empty
-mapfile -t md_files < <(find "$input_dir" -type f -name "*.md")
-if [ ${#md_files[@]} -eq 0 ]; then
-  echo "No Markdown files to process."
-  exit 0
-fi
-
 # Iterate over .md files in input directory
 for file in "$input_dir"/*.md; do
   file=$(basename "$file")

@@ -10,14 +10,36 @@ on:
 
 concurrency:
   group: md2gmi
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 defaults:
   run:
     shell: bash
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      work_to_do: ${{ steps.check_markdown.outputs.work_to_do }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_GH_TOKEN }}
+      - name: Check for files to be processed
+        id: check_markdown
+        run: |
+          mapfile -t md_files < <(find markdown/incoming -type f -name "*.md")
+          if [ ${#md_files[@]} -eq 0 ]; then
+            echo "No Markdown files to process, exiting early."
+            echo "work_to_do=false" >> $GITHUB_OUTPUT
+            exit 0
+          else
+            echo "work_to_do=true" >> $GITHUB_OUTPUT
+          fi
+
   md2gmi:
+    needs: setup
+    if: needs.setup.outputs.work_to_do == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,5 +53,3 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'convert Markdown post to Gempost'
-
-
