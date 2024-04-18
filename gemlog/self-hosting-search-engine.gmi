@@ -8,6 +8,6 @@ Rather than maintaining its own index or running its own crawlers (as something 
 => https://yacy.net/ YaCy homepage
 => /res/2024-02-21-searxng-prefs.png Image: SearXNG Preferences page listing some of the available search engines
 
-It's pretty neat, and the results so far have been fairly decent. If you'd like to give it a try, my instance is at grep.vim.wtf. (At least until I get bored with it.)
+It's pretty neat, and the results so far have been fairly decent. If you'd like to give it a try, my instance is at grep.vpota.to. (At least until I get bored with it.)
 
-=> https://grep.vim.wtf/ SearXNG on grep.vim.wtf
+=> https://grep.vpota.to/ SearXNG on grep.vim.wtf
