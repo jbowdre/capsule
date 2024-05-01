@@ -1,0 +1,80 @@
+It's been a few months since I shared how I had integrated (near) realtime weather station data[1] into my omg.lol profile page[2]. I've since done a little bit more work to start managing that (and the related /now[3] page) with GitOps[4]. Not only has that allowed me to update my pages from my terminal, but it's also made it easier (and safer) for me to tinker with the presentation.
+
+=> https://runtimeterror.dev/display-tempest-weather-static-site/ 1: integrated (near) realtime weather station data
+=> https://jbowdre.lol 2: omg.lol profile page
+=> https://now.jbowdre.lol 3: /now
+=> https://scribbles.jbowdre.lol/post/gitops-for-omg-lol 4: with GitOps
+
+So today I knocked out something I'd been intended to do for ages: I set up my /now page to pull the latest album or track from my "Now Playing" thread on MusicThread[1]. I opted for this approach rather than direct last.fm (or other scrobbler) integration for two important reasons:
+
+=> https://musicthread.app/thread/2aVjZUocjk96LELFbV5JvJjm14v 1: "Now Playing" thread on MusicThread
+
+1. It was easier, and 2. I want there to still be some degree of personal curation occurring.
+
+I want it to answer the question, "Hey, what are you listening to lately?" rather than just blindly reporting whatever happens to be queued up. As a visitor to someone's page, I'm less interested in what song is currently playing than I am in what music has caught their ear recently. So that's what I wanted to present on my page.
+
+All that is to say, this integration was pretty straight forward and I didn't even need to mess with any messy authentication. MusicThread has a very simple API[1], so I quickly determine that all I needed to do was make a `GET` request against:
+
+=> https://musicthread.app/api 1: very simple API
+
+```
+https://musicthread.app/api/v0/thread/2aVjZUocjk96LELFbV5JvJjm14v
+```
+
+And it would return the thread in JSON:
+
+```
+{
+    "links": [
+        {
+            "artist": "Stone Sour",
+            "description": "",
+            "key": "2fnI6uEVJdT5kPyRho6XQhebmVO",
+            "page_url": "https://musicthread.app/link/2fnI6uEVJdT5kPyRho6XQhebmVO",
+            "submitted_at": "2024-04-29T22:37:22.740999Z",
+            "thumbnail_url": "https://img.musicthread.app/37d8a80b52457eba701fedba13a39f4687c290da/68747470733a2f2f692e7363646e2e636f2f696d6167652f61623637363136643030303062323733623432346165623531303031366461613162633032353163",
+            "title": "Through Glass",
+            "type": "track"
+        },
+        {
+            "artist": "Logic, Eminem",
+            "description": "",
+            "key": "2fWfoHJysUL8LlwyiIZoo6Vjmck",
+            "page_url": "https://musicthread.app/link/2fWfoHJysUL8LlwyiIZoo6Vjmck",
+            "submitted_at": "2024-04-24T01:25:27.31569Z",
+            "thumbnail_url": "https://img.musicthread.app/ff084172da28a68d863de47e1e1481ba6a201fae/68747470733a2f2f692e7363646e2e636f2f696d6167652f61623637363136643030303062323733343163306164336533393338386162333332666662303233",
+            "title": "Homicide (feat. Eminem)",
+            "type": "track"
+        }
+    ]
+}
+```
+
+I'm only interested in the newest (0th) entry, and I only need the title, artist, and page\_url. So here's the JS I hastily threw together to throw into the head element of my web/now page:
+
+```
+
+// retrieves latest link from a musicthread thread and displays it on the page
+const musicthread = 'https://musicthread.app/api/v0/thread/2aVjZUocjk96LELFbV5JvJjm14v';
+fetch(musicthread)
+  .then(res => res.json())
+  .then(function(res){
+    let nowPlaying = res.links[0];
+    document.getElementById('now-playing').innerHTML = "" + nowPlaying.title + " by " + nowPlaying.artist;
+  });
+
+```
+
+And then I can just replace the list-item where I'd been manually inputting the music info (like a cave person) with something like this:
+
+```
+- Silence {headphones}
+```
+
+So that's now live on now.jbowdre.lol[1], and the source for the whole shebang is in my GitHub[2]. I even have a quick musicthread.html[3]page I made for testing in case you want a quick peak at just this piece.
+
+=> https://now.jbowdre.lol 1: now.jbowdre.lol
+=> https://github.com/jbowdre/lolz 2: my GitHub
+=> https://github.com/jbowdre/lolz/blob/main/musicthread.html 3: musicthread.html
+
+=> https://scribbles.jbowdre.lol/post/2024-05-01 📡 Originally posted on Scribbles 

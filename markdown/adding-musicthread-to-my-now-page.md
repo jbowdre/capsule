@@ -51,22 +51,22 @@ And it would return the thread in JSON:
 I'm only interested in the newest (0th) entry, and I only need the title, artist, and page\_url. So here's the JS I hastily threw together to throw into the head element of my web/now page:
 
 ```
-<script>
+
 // retrieves latest link from a musicthread thread and displays it on the page
 const musicthread = 'https://musicthread.app/api/v0/thread/2aVjZUocjk96LELFbV5JvJjm14v';
 fetch(musicthread)
   .then(res => res.json())
   .then(function(res){
     let nowPlaying = res.links[0];
-    document.getElementById('now-playing').innerHTML = "<a href='" + nowPlaying.page_url + "'>" + nowPlaying.title + "</a> by " + nowPlaying.artist;
+    document.getElementById('now-playing').innerHTML = "" + nowPlaying.title + " by " + nowPlaying.artist;
   });
-</script>
+
 ```
 
 And then I can just replace the list-item where I'd been manually inputting the music info (like a cave person) with something like this:
 
 ```
-- <span id="now-playing">Silence</span> {headphones}
+- Silence {headphones}
 ```
 
 So that's now live on [now.jbowdre.lol](https://now.jbowdre.lol), and the source for the whole shebang is in [my GitHub](https://github.com/jbowdre/lolz). I even have a quick [musicthread.html](https://github.com/jbowdre/lolz/blob/main/musicthread.html)page I made for testing in case you want a quick peak at just this piece.
