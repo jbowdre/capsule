@@ -1,18 +1,18 @@
 ---
-title: ""
+title: "Adding MusicThread to My /now Page"
 published: "2024-05-01T20:28:09.000000Z"
 updated: "2024-05-01T20:28:09.000000Z"
 ---
 
-It's been a few months since I shared how I had [integrated (near) realtime weather station data](https://runtimeterror.dev/display-tempest-weather-static-site/) into my [omg.lol profile page](https://jbowdre.lol). I've since done a little bit more work to start managing that (and the related [/now](https://now.jbowdre.lol) page) [with GitOps](https://scribbles.jbowdre.lol/post/gitops-for-omg-lol). Not only has that allowed me to update my pages from my terminal, but it's also made it easier (and safer) for me to tinker with the presentation.  
-  
+It's been a few months since I shared how I had [integrated (near) realtime weather station data](https://runtimeterror.dev/display-tempest-weather-static-site/) into my [omg.lol profile page](https://jbowdre.lol). I've since done a little bit more work to start managing that (and the related [/now](https://now.jbowdre.lol) page) [with GitOps](https://scribbles.jbowdre.lol/post/gitops-for-omg-lol). Not only has that allowed me to update my pages from my terminal, but it's also made it easier (and safer) for me to tinker with the presentation.
+
 So today I knocked out something I'd been intended to do for ages: I set up my /now page to pull the latest album or track from my ["Now Playing" thread on MusicThread](https://musicthread.app/thread/2aVjZUocjk96LELFbV5JvJjm14v). I opted for this approach rather than direct last.fm (or other scrobbler) integration for two important reasons:
 
 1. It was easier, and
 2. I want there to still be some degree of personal curation occurring.
 
-I want it to answer the question, "Hey, what are you listening to lately?" rather than just blindly reporting whatever happens to be queued up. As a visitor to someone's page, I'm less interested in what song is currently playing than I am in what music has caught their ear recently. So that's what I wanted to present on my page.  
-  
+I want it to answer the question, "Hey, what are you listening to lately?" rather than just blindly reporting whatever happens to be queued up. As a visitor to someone's page, I'm less interested in what song is currently playing than I am in what music has caught their ear recently. So that's what I wanted to present on my page.
+
 All that is to say, this integration was pretty straight forward and I didn't even need to mess with any messy authentication. MusicThread has a [very simple API](https://musicthread.app/api), so I quickly determine that all I needed to do was make a `GET` request against:
 
 ```
