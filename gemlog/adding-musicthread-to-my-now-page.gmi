@@ -77,4 +77,4 @@ So that's now live on now.jbowdre.lol[1], and the source for the whole shebang i
 => https://github.com/jbowdre/lolz 2: my GitHub
 => https://github.com/jbowdre/lolz/blob/main/musicthread.html 3: musicthread.html
 
-=> https://scribbles.jbowdre.lol/post/2024-05-01 📡 Originally posted on Scribbles 
+=> https://scribbles.jbowdre.lol/post/adding-musicthread-to-my-now-page 📡 Originally posted on Scribbles
