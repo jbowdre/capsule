@@ -1,0 +1,31 @@
+---
+title: "Publishing my Obsidian Vault with Quartz"
+published: "2024-05-04T20:40:14.000000Z"
+updated: "2024-05-04T20:40:14.000000Z"
+---
+
+I've been using [Obsidian](https://obsidian.md/) for managing my thoughts and notes and references for a few years. I've toyed a few times with using [Obsidian Publish](https://obsidian.md/publish) to share some of those notes publicly, but I wasn't sure I'd get enough benefit from that to justify the $8/mo subscription *just* for Publish.
+
+Plus I'd rather host on a system I control.
+
+Well yesterday I stumbled across Quartz:
+
+> Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites.
+
+Hugo, Jekyll, and 11ty are also SSGs which convert Markdown files into functional websites, but Quartz is optimized for the [digital garden](https://jzhao.xyz/posts/networked-thought)approach of less-polished posts which can grow and connect together organically. It's a great way to collect (and share) bits of knowledge, and a great complement to how I already work with Obsidian.
+
+So I decided to give Quartz a try, and I'm quite impressed with it so far. You can see what I've got here:
+
+- [notes.runtimeterror.dev](https://notes.runtimeterror.dev)
+
+This is being served from one of my cloud servers, and is deployed to there through a [GitHub Actions workflow](https://github.com/jbowdre/notes/blob/a2255ba40561f6754fbefca3d901847f7bb546f5/.github/workflows/deploy.yaml) I cobbled together for that purpose. That GitHub repo holds a new safe-for-public-consumption Obsidian Vault, and I can publish new notes by simply writing them in Obsidian and then running:
+
+```
+npx quartz sync
+```
+
+That syncs the changes to the repo and fires off the workflow, which builds the site and uses Tailscale SSH to push it to the server.
+
+Neat!
+
+=> https://scribbles.jbowdre.lol/post/publishing-my-obsidian-vault-with-quartz 📡 Originally posted on Scribbles
