@@ -28,4 +28,4 @@ That syncs the changes to the repo and fires off the workflow, which builds the 
 
 Neat!
 
-=> https://scribbles.jbowdre.lol/post/publishing-my-obsidian-vault-with-quartz 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/publishing-my-obsidian-vault-with-quartz 📡 Originally posted on jbowdre's weblog

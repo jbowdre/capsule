@@ -4,8 +4,8 @@
 ## > /dev/stdout
 => /gemlog 📡 gemlog
 => gemini://gmi.runtimeterror.dev 💻 techy blog posts
-=> https://scribbles.jbowdre.lol scribbles 'n bits
 => https://github.com/jbowdre code and kludges
+=> https://blog.jbowdre.lol weblog
 
 ## > /dev/net
 => https://counter.social/@john_b counter.social

@@ -4,7 +4,7 @@ published: "2024-05-21T21:52:30.000000Z"
 updated: "2024-05-21T21:52:30.000000Z"
 ---
 
-The one techie thing I accomplished [while I was a zombie last week](https://scribbles.jbowdre.lol/post/emerging-from-the-fog) was installing [GrapheneOS](https://grapheneos.org/) on my Pixel 8 Pro.
+The one techie thing I accomplished [while I was a zombie last week](https://blog.jbowdre.lol/post/emerging-from-the-fog) was installing [GrapheneOS](https://grapheneos.org/) on my Pixel 8 Pro.
 
 > GrapheneOS is a private and secure mobile operating system with great functionality and usability. It starts from the strong baseline of the [Android Open Source Project (AOSP)](https://source.android.com/) and takes great care to avoid increasing attack surface or hurting the strong security model. GrapheneOS makes substantial improvements to both privacy and security through many carefully designed features built to function against real adversaries. The project cares a lot about usability and app compatibility so those are taken into account for all of our features.
 
@@ -22,4 +22,4 @@ Not all Pixel apps work though; some (like the Pixel Thermometer app specific to
 
 All told, I wish I had made this switch ages ago.
 
-=> https://scribbles.jbowdre.lol/post/daily-driving-grapheneos 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/daily-driving-grapheneos 📡 Originally posted on jbowdre's weblog

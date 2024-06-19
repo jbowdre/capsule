@@ -1,6 +1,6 @@
 I posted *almost* a month ago[1] that I was pausing my Scribblesing while I focused on further adventures in Geminispace[2]. But then Robb Knight[3] went and released the much-anticipated EchoFeed[4], and I thought it might be fun to see if I could feed my Gemini capsule[5] from Scribbles.
 
-=> https://scribbles.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh 1: posted almost a month ago
+=> https://blog.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh 1: posted almost a month ago
 => https://geminiprotocol.net/ 2: Geminispace
 => https://robb.omg.lol/ 3: Robb Knight
 => https://echofeed.app 4: EchoFeed
@@ -14,6 +14,6 @@ Now, when EchoFeed sees a new post on my Scribbles feed, it copies the post to a
 => https://github.com/justlark/gempost 2: gempost
 => https://runtimeterror.dev/gemini-capsule-gempost-github-actions/ 3: another workflow
 
-Now I get to check out all the cool new stuff Vincent has been adding to Scribbles[1] while still maintaining a presence on the altweb. Very exciting! 
+Now I get to check out all the cool new stuff Vincent has been adding to Scribbles[1] while still maintaining a presence on the altweb. Very exciting!
 => https://scribbles.page/updates 1: cool new stuff Vincent has been adding to Scribbles
 

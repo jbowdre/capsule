@@ -17,4 +17,4 @@ A 45-day supply.
 
 I'm so tired.
 
-=> https://scribbles.jbowdre.lol/post/i-m-tired 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/i-m-tired 📡 Originally posted on jbowdre's weblog

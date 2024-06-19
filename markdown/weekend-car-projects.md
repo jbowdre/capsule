@@ -16,4 +16,4 @@ Today, I replaced my worn Winmax W3/W4 brake pads with basically-brand-new Ferod
 
 I went out for a drive to get the new pads bedded in and they feel great. I look forward to taking them for a proper spin next weekend!
 
-=> https://scribbles.jbowdre.lol/post/weekend-car-projects 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/weekend-car-projects 📡 Originally posted on jbowdre's weblog

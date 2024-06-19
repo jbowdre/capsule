@@ -3,7 +3,7 @@ It's been a few months since I shared how I had integrated (near) realtime weath
 => https://runtimeterror.dev/display-tempest-weather-static-site/ 1: integrated (near) realtime weather station data
 => https://jbowdre.lol 2: omg.lol profile page
 => https://now.jbowdre.lol 3: /now
-=> https://scribbles.jbowdre.lol/post/gitops-for-omg-lol 4: with GitOps
+=> https://blog.jbowdre.lol/post/gitops-for-omg-lol 4: with GitOps
 
 So today I knocked out something I'd been intended to do for ages: I set up my /now page to pull the latest album or track from my "Now Playing" thread on MusicThread[1]. I opted for this approach rather than direct last.fm (or other scrobbler) integration for two important reasons:
 
@@ -77,4 +77,4 @@ So that's now live on now.jbowdre.lol[1], and the source for the whole shebang i
 => https://github.com/jbowdre/lolz 2: my GitHub
 => https://github.com/jbowdre/lolz/blob/main/musicthread.html 3: musicthread.html
 
-=> https://scribbles.jbowdre.lol/post/adding-musicthread-to-my-now-page 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/adding-musicthread-to-my-now-page 📡 Originally posted on jbowdre's weblog

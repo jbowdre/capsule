@@ -16,4 +16,4 @@ I decided maybe it was time to look at a different terminal emulator, and a shor
 
 So far, I'm really impressed with Tabby and will likely be using it at least until Mitchell Hashimoto is ready to share the [Ghostty terminal emulator](https://mitchellh.com/ghostty) he's been tinkering with.
 
-=> https://scribbles.jbowdre.lol/post/trying-tabby-terminal 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/trying-tabby-terminal 📡 Originally posted on jbowdre's weblog

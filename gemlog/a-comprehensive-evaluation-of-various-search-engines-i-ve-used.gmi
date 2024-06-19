@@ -36,10 +36,10 @@ Given that the world has just been recently reminded that so many of those "alte
 
 - SearXNG. A metasearch engine which pulls from every other search engine, and gives you knobs to toggle each source to fine-tune the results. It doesn't have its own index or crawler, but offers good-enough results without having to rely on any one (or two) provider(s). Also, I'm a sucker for self-hosting[1]. **This is my current default, at least until Stract gets better**.
 
-=> https://scribbles.jbowdre.lol/post/self-hosting-a-search-engine-iyjdlk6y 1: self-hosting
+=> https://blog.jbowdre.lol/post/self-hosting-a-search-engine-iyjdlk6y 1: self-hosting
 
 If you think my evaluation wasn't comprehensive, thorough, or objective enough, you might be happier with this more excellent comparison of search engines with their own indexes[1].
 
 => https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/ 1: more excellent comparison of search engines with their own indexes
 
-=> https://scribbles.jbowdre.lol/post/a-comprehensive-evaluation-of-various-search-engines-i-ve-used 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/a-comprehensive-evaluation-of-various-search-engines-i-ve-used 📡 Originally posted on jbowdre's weblog

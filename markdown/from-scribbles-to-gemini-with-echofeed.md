@@ -4,7 +4,7 @@ published: "2024-04-14T00:23:30.000000Z"
 updated: "2024-04-14T00:23:30.000000Z"
 ---
 
-I [posted *almost* a month ago](https://scribbles.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh) that I was pausing my Scribblesing while I focused on further adventures in [Geminispace](https://geminiprotocol.net/). But then [Robb Knight](https://robb.omg.lol/) went and released the much-anticipated [EchoFeed](https://echofeed.app), and I thought it might be fun to see if I could feed my [Gemini capsule](https://capsule.jbowdre.lol) from Scribbles.
+I [posted *almost* a month ago](https://blog.jbowdre.lol/post/parking-scribbles-for-now-t9dty3yh) that I was pausing my Scribblesing while I focused on further adventures in [Geminispace](https://geminiprotocol.net/). But then [Robb Knight](https://robb.omg.lol/) went and released the much-anticipated [EchoFeed](https://echofeed.app), and I thought it might be fun to see if I could feed my [Gemini capsule](https://capsule.jbowdre.lol) from Scribbles.
 
 After tinkering with it quite a bit today, I think I've got a working (if not particularly elegant) solution.
 

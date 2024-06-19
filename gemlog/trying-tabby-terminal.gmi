@@ -21,4 +21,4 @@ So far, I'm really impressed with Tabby and will likely be using it at least unt
 
 => https://mitchellh.com/ghostty 1: Ghostty terminal emulator
 
-=> https://scribbles.jbowdre.lol/post/trying-tabby-terminal 📡 Originally posted on Scribbles 
+=> https://blog.jbowdre.lol/post/trying-tabby-terminal 📡 Originally posted on Scribbles

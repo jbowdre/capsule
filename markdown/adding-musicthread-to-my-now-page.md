@@ -4,7 +4,7 @@ published: "2024-05-01T20:28:09.000000Z"
 updated: "2024-05-01T20:28:09.000000Z"
 ---
 
-It's been a few months since I shared how I had [integrated (near) realtime weather station data](https://runtimeterror.dev/display-tempest-weather-static-site/) into my [omg.lol profile page](https://jbowdre.lol). I've since done a little bit more work to start managing that (and the related [/now](https://now.jbowdre.lol) page) [with GitOps](https://scribbles.jbowdre.lol/post/gitops-for-omg-lol). Not only has that allowed me to update my pages from my terminal, but it's also made it easier (and safer) for me to tinker with the presentation.
+It's been a few months since I shared how I had [integrated (near) realtime weather station data](https://runtimeterror.dev/display-tempest-weather-static-site/) into my [omg.lol profile page](https://jbowdre.lol). I've since done a little bit more work to start managing that (and the related [/now](https://now.jbowdre.lol) page) [with GitOps](https://blog.jbowdre.lol/post/gitops-for-omg-lol). Not only has that allowed me to update my pages from my terminal, but it's also made it easier (and safer) for me to tinker with the presentation.
 
 So today I knocked out something I'd been intended to do for ages: I set up my /now page to pull the latest album or track from my ["Now Playing" thread on MusicThread](https://musicthread.app/thread/2aVjZUocjk96LELFbV5JvJjm14v). I opted for this approach rather than direct last.fm (or other scrobbler) integration for two important reasons:
 
@@ -71,4 +71,4 @@ And then I can just replace the list-item where I'd been manually inputting the 
 
 So that's now live on [now.jbowdre.lol](https://now.jbowdre.lol), and the source for the whole shebang is in [my GitHub](https://github.com/jbowdre/lolz). I even have a quick [musicthread.html](https://github.com/jbowdre/lolz/blob/main/musicthread.html)page I made for testing in case you want a quick peak at just this piece.
 
-=> https://scribbles.jbowdre.lol/post/2024-05-01 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/2024-05-01 📡 Originally posted on jbowdre's weblog

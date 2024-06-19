@@ -10,4 +10,4 @@ I started to feel better pretty quickly, but even as my other symptoms improved 
 
 That fog finally started to lift over this weekend, and I feel almost back to normal this morning. I can think again! Now I just need to figure out where I left off on those various projects so I can get back to work.
 
-=> https://scribbles.jbowdre.lol/post/emerging-from-the-fog 📡 Originally posted on Scribbles
+=> https://blog.jbowdre.lol/post/emerging-from-the-fog 📡 Originally posted on jbowdre's weblog
