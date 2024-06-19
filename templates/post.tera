@@ -12,7 +12,7 @@
 {% endif %}
 {{ entry.body }}
 
-=> mailto:capsule@jbowdre.lol?subject=Re:%20{{ entry.title | urlencode }} 📧 Reply via email
+=> mailto:cover.deer.clue@clkdmail.com?subject=Re:%20{{ entry.title | urlencode }} 📧 Reply via email
 ─────
 
 => {{ feed.index_url }} [posts]
