@@ -1,0 +1,90 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-07-06/ 1: last weekly status
+
+### More Cycling!
+
+### Accessories
+
+I eventually settled on a center-mount kickstand[1] that works well on my new bike[2]: A blue bicycle with a kickstand extended on a gravel surface. The background shows a blurred lake and trees under a cloudy sky.[3]
+
+=> https://www.amazon.com/dp/B00DYFS3N4 1: center-mount kickstand
+=> /new-ride/ 2: new bike
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1720907313.jpg 3: A blue bicycle with a kickstand extended on a gravel surface. The background shows a blurred lake and trees under a cloudy sky.
+
+I also picked up a small under-seat bag[1] for storing odds and ends (and snacks - okay, mostly snacks and drink powders for longer rides). The underside of a bicycle seat with a black saddlebag and a red rear light. The bike is parked near a grassy area and a lake, with a cloudy sky overhead.[2]
+
+=> https://www.amazon.com/dp/B0CLKNJ3HZ 1: small under-seat bag
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1720907416.jpg 2: The underside of a bicycle seat with a black saddlebag and a red rear light. The bike is parked near a grassy area and a lake, with a cloudy sky overhead.
+
+And I gave my car a stylish hat[1], in the form of a SeaSucker Talon[2] bike rack.
+
+=> https://social.lol/@jbowdre/112781113729255106 1: gave my car a stylish hat
+=> https://www.seasucker.com/collections/bike/products/talon 2: SeaSucker Talon
+
+A dark grey Subaru sports car parked in a garage with a blue bicycle mounted on the roof rack. The garage door is closed, and various tools and equipment are visible along the walls.[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1720908463.jpg 1: A dark grey Subaru sports car parked in a garage with a blue bicycle mounted on the roof rack. The garage door is closed, and various tools and equipment are visible along the walls.
+
+It attaches with powerful vacuum cups... which seems wild, but it feels pretty sturdy. SeaSucker says they've tested this setup at up to 140mph so hopefully it'll do the trick for ~50mph trips across town. (And now I won't have to steal my wife's station wagon whenever I need to transport the bike.)
+
+### Adventures
+
+I took Friday off and went for a slightly-longer-than-usual ride[1] (~20 miles versus the usual ~13ish), and this route incorporated a few miles on a gravel trail. I was quite impressed by how well the front suspension fork absorbed the bumps on the trail, and I love being able to lock the suspension when on smoother surfaces. I really like this bike!
+
+=> /mental-health-gravel-ride-day/ 1: took Friday off and went for a slightly-longer-than-usual ride
+
+This week I also registered for another adventure: a 40 mile ride[1] followed by "all you can eat" barbecue. I participated in this ride last year and had a lot of fun, and I'm looking forward to tackling it again.
+
+=> https://www.springcity.org/century 1: 40 mile ride
+
+### Learning Golang
+
+I've made it through Chapter 4 of the Golang programming book[1] I'm reading, and I've followed along with dozens of exercises and completed several self-guided "activities" to reinforce my learning. I'm learning a ton, and gaining practical experience in the process - and I think having a passing familiarity with the language first has actually been a big help, too.
+
+=> https://openlibrary.org/works/OL38409851W/Go_Programming_-_From_Beginner_to_Professional 1: Golang programming book
+
+### ChillFeed
+
+I did make a new release[1] of my little feed aggregator[2]. The big change with this release is that the `fetch_log.json` used to keep track of the order in which posts were retrieved (since I've learned I can't necessarily trust the timestamp included in the RSS feeds) is now stored in a separate branch to avoid sullying the `main` branch unnecessarily. This should make it easier for downstream ChillFeed instances to update from the upstream template repo.
+
+=> https://github.com/chillfeed/chillfeed/releases/tag/v1.1.0 1: new release
+=> https://github.com/chillfeed/chillfeed 2: feed aggregator
+
+I think I might move the fetched articles to the new `data` branch as well so that the only instance-specific deviations from the template would be in the config file.
+
+In any case, my ChillFeed instance[1] has become my primary feed-following tool, and I'm learning a lot as I continue tinkering with this little project. Good stuff.
+
+=> https://chillfeed.jbowdre.lol/ 1: ChillFeed instance
+
+### Concert Plans
+
+We went to a *lot* of metal shows last year, but have only been to a few so far this year. We have firmed up a few plans for the remainder of the year though:
+
+- **A Day to Remember** in a few weeks - **CAKE** (maybe?) in September - A 3 day metal festival[1] in October - **Postmodern Jukebox** in December
+
+=> https://www.furnacefest.us/ 1: 3 day metal festival
+
+There may be a few more that we pick up before the end of the year, but these are the ones I'm tracking with firm-ish plans right now.
+
+### In other news...
+
+- I celebrated another Duolingo milestone: a 1400-day streak[1]! I've been using Duolingo daily for learning German since watching Dark[2] almost four years ago, and I added Esperanto lessons a few months back. (Esperanto is *really* neat, by the way, and well worth checking out if you have a passing interest in how languages work.) - I started playing The Last of Us Part I[3] on my SteamDeck last night. I'm enjoying it so far.
+
+=> https://social.lol/@jbowdre/112769174766129159 1: 1400-day streak
+=> https://www.imdb.com/title/tt5753856/ 2: Dark
+=> https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/ 3: The Last of Us Part I
+
+- I'm *still* (very slowly) working on a post about how I set up a GitHub Actions workflow to build Proxmox VM templates in my homelab using Packer[1]; it's a pretty big topic, so it's taking a long time to write things out clearly. Also, I keep getting distracted. I'm hoping to finish it this week, maybe?
+
+=> https://social.lol/@jbowdre/112598536881790346 1: a GitHub Actions workflow to build Proxmox VM templates in my homelab using Packer
+
+### Top scrobble
+
+My most-played track of the week:
+
+🎧 Make Damn Sure by Taking Back Sunday[1]
+
+=> https://musicthread.app/link/2jDBMHu8EDvo7oQe5whj3FbREeW 1: Make Damn Sure by Taking Back Sunday
+
+=> https://blog.jbowdre.lol/this-week-2024-07-13/ 📡 Originally posted on jbowdre's weblog 
