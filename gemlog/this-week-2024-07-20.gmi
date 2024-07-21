@@ -1,0 +1,44 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-07-13/ 1: last weekly status
+
+### New Gear
+
+I took advantage of Prime Day to pick up a few gadgets I'd been considering:
+
+- Philips Sonicare ProtectiveClean 5300 toothbrush[1]. My dentist recently pointed out that some of my gums aren't doing great and suggested that a Sonicare would likely help. Initial impression: *boy this thing is loud, but my teeth do feel clean.* - SHOKZ OpenRun bone-conduction headphones[2]. I'd like to listen to tunes while riding, but I don't want to block any of the sounds around me... and I *definitely* don't want to be one of those people blasting music over my phone's speaker. Initial impression: *hearing sounds in my head even when I plug my ears is **wild**.* - Garmin fenix 7 Sapphire Solar smartwatch[3]. After wearing various Wear OS smartwatches for the last ten years, I wanted a watch that was more serious about fitness tracking—and one with a battery that lasts more than 24 hours. Initial impression: *it's larger than what I'm used to, but packed with features and configurable options. Currently estimates it won't need to be charged for another **14 days**.*
+
+=> https://www.amazon.com/dp/B084TM4XKG 1: Philips Sonicare ProtectiveClean 5300 toothbrush
+=> https://www.amazon.com/dp/B09BW1T7X2 2: SHOKZ OpenRun bone-conduction headphones
+=> https://www.amazon.com/dp/B09NMHSHX7 3: Garmin fenix 7 Sapphire Solar smartwatch
+
+I'll probably share more thoughts on these items in the coming weeks.
+
+### New Blog Post
+
+I've been working on a detailed post about how I'm using Packer and Vault to build VM templates for my Proxmox homelab for about six weeks, and it is such a relief to finally post it[1].
+
+=> https://runtimeterror.dev/building-proxmox-templates-packer/ 1: finally post it
+
+Of course, I did end up basically splitting the post in half. I *promise* I'll post a follow-up detailing my use of GitHub Actions to fully automate these template builds soon!
+
+### In Other News...
+
+- I survived the Great Crowdstrike Outage of 2024.
+- I finished reading What the Hell Did I Just Read[1] by Jason "David Wong" Pargin and, well, what the hell did I just read? It was a wild ride, even by Pargin's standards. Enjoyable for sure, but it's kind of all over the place.
+
+=> https://openlibrary.org/works/OL20188485W/What_the_Hell_Did_I_Just_Read?edition=ia%3Awhathelldidijust0000wong 1: What the Hell Did I Just Read
+
+- I'm now reading Truth of the Divine[1] by Lindsay Ellis.
+
+=> https://openlibrary.org/works/OL24198736W/Truth_of_the_Divine?edition=ia%3Atruthofdivineboo0000lind 1: Truth of the Divine
+
+### Top Scrobble
+
+My most-played track of the week:
+
+🎧 Mr. Highway's Thinking About The End by A Day To Remember[1]
+
+=> https://musicthread.app/link/2jNm8BzZKhKboKCumuQK33mHp7s 1: Mr. Highway's Thinking About The End by A Day To Remember
+
+=> https://blog.jbowdre.lol/this-week-2024-07-20/ 📡 Originally posted on jbowdre's weblog 
