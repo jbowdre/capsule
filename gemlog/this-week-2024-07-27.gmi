@@ -1,0 +1,44 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-07-19/ 1: last weekly status
+
+### (Another) New Blog Post
+
+As promised last week, I followed up a length post on how to use Packer to build VM templates on Promox[1] with another deep-dive on automating the template builds with GitHub Actions[2]. That second post went a lot more quickly than the first, which was a relief - I wasn't really prepared to sit on it for another ~6 weeks.
+
+=> https://runtimeterror.dev/building-proxmox-templates-packer/ 1: a length post on how to use Packer to build VM templates on Promox
+=> https://runtimeterror.dev/automate-packer-builds-github-actions/ 2: automating the template builds with GitHub Actions
+
+I've been using that GitHub Actions setup to build fresh templates in my homelab every week, and it feels great to finally have the whole setup documented.
+
+### 0.001 Seconds
+
+Today was our club's seventh autocross event of the year. Those races are always a highlight of my month, but the competition today was particularly satisfying. After some intense back-and-forth action, I was pretty pleased with this 51.779-second run which put me comfortably in second place:
+
+View on YouTube[1]
+
+=> https://youtu.be/U0EKRsuZXzM 1: View on YouTube
+
+... until a competitor finished with a *51.778*, knocking me every-so-slightly back into third.
+
+0.001 seconds isn't very long, but makes for some really exciting racing!
+
+### In Other News...
+
+- I'm still surviving the Great CrowdStrike Outage of 2024. I haven't been directly impacted but I have been following the developments pretty closely. Large-scale failures are kind of fascinating and offer a lot of opportunities for learning how to do better. I just hope CrowdStrike is learning a *lot* from this.
+
+- I'm reading Truth of the Divine[1] by Lindsay Ellis. It has been a few years since I read Axiom's End[2], the first in the series, and I'm kind of wishing I had re-read it before starting the sequel. I really suck at remembering what happened from one book to the next.
+
+=> https://openlibrary.org/works/OL24198736W/Truth_of_the_Divine?edition=ia%3Atruthofdivineboo0000lind 1: Truth of the Divine
+=> https://openlibrary.org/works/OL20914838W/Axiom%27s_End?edition=ia%3Aaxiomsendnovel0000elli 2: Axiom's End
+
+- I had put the Golong learning on pause while I focused on getting those Packer-related blog posts published. I'm looking forward to picking that back up!
+### Top Scrobble
+
+My most-played track of the week:
+
+🎧 Clarity by ZEDD[1]
+
+=> https://musicthread.app/link/2jqwfIfd3ecf0VE58Lx5kGvs0UF 1: Clarity by ZEDD
+
+=> https://blog.jbowdre.lol/this-week-2024-07-27/ 📡 Originally posted on jbowdre's weblog 
