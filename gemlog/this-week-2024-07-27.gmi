@@ -4,9 +4,9 @@
 
 ### (Another) New Blog Post
 
-As promised last week, I followed up a length post on how to use Packer to build VM templates on Promox[1] with another deep-dive on automating the template builds with GitHub Actions[2]. That second post went a lot more quickly than the first, which was a relief - I wasn't really prepared to sit on it for another ~6 weeks.
+As promised last week, I followed up a lengthy post on how to use Packer to build VM templates on Promox[1] with another deep-dive on automating the template builds with GitHub Actions[2]. That second post went a lot more quickly than the first, which was a relief - I wasn't really prepared to sit on it for another ~6 weeks.
 
-=> https://runtimeterror.dev/building-proxmox-templates-packer/ 1: a length post on how to use Packer to build VM templates on Promox
+=> https://runtimeterror.dev/building-proxmox-templates-packer/ 1: a lengthy post on how to use Packer to build VM templates on Promox
 => https://runtimeterror.dev/automate-packer-builds-github-actions/ 2: automating the template builds with GitHub Actions
 
 I've been using that GitHub Actions setup to build fresh templates in my homelab every week, and it feels great to finally have the whole setup documented.
@@ -19,7 +19,7 @@ View on YouTube[1]
 
 => https://youtu.be/U0EKRsuZXzM 1: View on YouTube
 
-... until a competitor finished with a *51.778*, knocking me every-so-slightly back into third.
+... until a competitor finished with a *51.778*, knocking me ever-so-slightly back into third.
 
 0.001 seconds isn't very long, but makes for some really exciting racing!
 
@@ -41,4 +41,4 @@ My most-played track of the week:
 
 => https://musicthread.app/link/2jqwfIfd3ecf0VE58Lx5kGvs0UF 1: Clarity by ZEDD
 
-=> https://blog.jbowdre.lol/this-week-2024-07-27/ 📡 Originally posted on jbowdre's weblog 
+=> https://srsbsns.lol/this-week-2024-07-27/ 📡 Originally posted on jbowdre's weblog 
