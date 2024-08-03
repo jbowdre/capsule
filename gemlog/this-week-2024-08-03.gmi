@@ -1,0 +1,50 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-07-27/ 1: last weekly status
+
+### New Posts!
+
+- I saw A Day To Remember in Nashville, and it was a show to remember[1].
+=> /a-concert-to-remember/ 1: a show to remember
+
+- I played a bit with Tailscale's new(ish) Taildrive feature[1].
+- And I purchased yet another new domain[2] - surprise, you're looking at it! 🎉
+
+=> https://runtimeterror.dev/taking-taildrive-testdrive/ 1: Tailscale's new(ish) Taildrive feature
+=> /new-domain/ 2: yet another new domain
+
+### runtimeterror Tweaks
+
+- I found some code from Luke Harris[1] (and an accompanying blog post[2] to configure Hugo to dynamically build a `robots.txt` file from the Dark Visitors[3] API. I really liked that idea since I honestly can't keep up with all the sketchy scrapers and will forget to update the file on my own. So I replaced my previous setup[4] with Luke's dynamic approach.
+=> https://github.com/lkhrs/hugo-dark-visitors 1: some code from Luke Harris
+=> https://www.lkhrs.com/blog/2024/darkvisitors-hugo/ 2: blog post
+=> https://darkvisitors.com/ 3: Dark Visitors
+=> https://runtimeterror.dev/blocking-ai-crawlers/ 4: previous setup
+
+- I also swapped out the recentfm widget[1] in the sidebar for some cobbled-together JavaScript[2] to pull the latest "pinned" track from my Now Playing Musicthread[3]. I like the idea of sharing a track that's stuck with me rather than just whatever happened to be played last.
+- And I tinkered a bit with the Typo[4] implementation which "types" (with randomized jitter, typos, and self-corrections) the randomly-selected taglines/errors at the top of the sidebar. I had noticed that sometimes mistakes made near the end of the phrase didn't get corrected; I altered it[5] so that it wouldn't insert typos in the last 3 characters.
+
+=> https://recentfm.rknight.me/ 1: recentfm widget
+=> https://github.com/jbowdre/runtimeterror/blob/main/assets/js/theme-song.js 2: cobbled-together JavaScript
+=> https://musicthread.app/thread/2aVjZUocjk96LELFbV5JvJjm14v 3: Now Playing Musicthread
+=> https://neatnik.net/typo/ 4: Typo
+=> https://github.com/jbowdre/runtimeterror/blob/main/assets/js/typo.js 5: altered it
+
+### In Other News...
+
+- I updated my /uses page[1] to swap the Garmin fenix 7 in for the Pixel Watch 2 I was using previously, and to switch to ControlD from NextDNS now that it's officially supported[2] by Tailscale.
+=> /uses/ 1: /uses page
+=> https://tailscale.com/blog/controld 2: officially supported
+
+- We went to see Deadpool &amp; Wolverine last night, and it was such a fun film. I was cackling basically the whole time - much to my wife's annoyance.
+- I'm back on my Golang learning, currently working through a deep dive on functions and such.
+
+### Top Scrobble
+
+My most-played track of the week:
+
+🎧 When Everything Means Nothing by Fit For A King[1]
+
+=> https://musicthread.app/link/2k6fKOQZL1dMu3P5fmC0OgW0g9S 1: When Everything Means Nothing by Fit For A King
+
+=> https://srsbsns.lol/this-week-2024-08-03/ 📡 Originally posted on srsbsns.lol 
