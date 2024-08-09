@@ -1,0 +1,33 @@
+I've been using Obsidian[1] to collect and manage my notes, thoughts, and tasks for a few years now, and I've been pretty happy with that setup - for the most part. Obsidian has a lot of awesome capabilities, but can also be a bit complicated to configure and use. And trying to access and work on notes from different devices (a frequent use case of mine) can be a bit of a challenge, even with the paid Sync add-on.
+
+=> https://obsidian.md/ 1: Obsidian
+
+A few days ago, I saw Jack Baty posting[1] a bit about an alternative I'd never heard of before: SilverBullet[2]. Like Obsidian, SilverBullet is a personal knowledge management system which lets you write notes in Markdown, create relationships between notes with tags and links, and quickly search to find *anything*. It's also extremely extensible with community plugins ("Plugs")[3] and user-created scripts ("Space-Scripts")[4].
+
+=> https://social.lol/@jbaty/112881572318814612 1: Jack Baty posting
+=> https://silverbullet.md/ 2: SilverBullet
+=> https://silverbullet.md/Plugs 3: community plugins ("Plugs")
+=> https://silverbullet.md/Space%20Script 4: user-created scripts ("Space-Scripts")
+
+Unlike that kind-of-bloated, proprietary, Electron-based app, SilverBullet is an open-source[1] self-hosted offline-capable web application. You install it[2] on your local computer, another computer on your network, or in the cloud somewhere, and can then use it from anything with a semi-modern web browser. I finally found some time to play with it last night and I'm hugely impressed!
+
+=> https://github.com/silverbulletmd/silverbullet 1: open-source
+=> https://silverbullet.md/Install 2: install it
+
+I deployed my instance in Docker alongside both a Tailscale sidecar[1] and Cloudflare Tunnel sidecar[2]. This setup lets me easily access/edit/manage my notes from any device I own by just pointing a browser at `https://silverbullet.tailnet-name.ts.net/`. And I can also hit it from any *other* device by using the public Cloudflare endpoint which is further protected by an email-based TOTP challenge. Either way, I don't have to worry about installing a bloated app or managing a complicated sync setup. Just log in and write.
+
+=> https://runtimeterror.dev/tailscale-serve-docker-compose-sidecar/ 1: Tailscale sidecar
+=> https://runtimeterror.dev/publish-services-cloudflare-tunnel/ 2: Cloudflare Tunnel sidecar
+
+I'm only just getting started with SilverBullet, and I have a lot to learn about all its features and options[1] but I am loving it so far. This is way more convenient for me and my use case(s) than Obsidian ever was, and I'm eagerly moving all the content from my Obsidian Vault into my new SilverBullet Space[2].
+
+=> https://silverbullet.md/Manual 1: features and options
+=> https://silverbullet.md/Spaces 2: Space
+
+I *may* even look at using the Pub Plug[1] to publicly host shared notes from SilverBullet like I'm doing with Obsidian + Quartz[2] at notes.runtimeterror.dev[3]... we'll see.
+
+=> https://silverbullet.md/Plugs/Pub 1: Pub Plug
+=> /publishing-my-obsidian-vault-with-quartz/ 2: Obsidian + Quartz
+=> https://notes.runtimeterror.dev 3: notes.runtimeterror.dev
+
+=> https://srsbsns.lol/is-silverbullet-the-note-keeping-silver-bullet/ 📡 Originally posted on srsbsns.lol 
