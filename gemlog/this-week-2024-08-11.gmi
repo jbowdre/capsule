@@ -1,0 +1,68 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-08-03 1: last weekly status
+
+### Reserved a solar car
+
+Early in the week I came across Aptera[1], a company with an ambitious solar electric vehicle project. It's a two-seater autocycle like the popular Polaris Slingshot[2] but with a fully-enclosed cabin and an extremely low drag coefficient (0.13). The Launch Edition vehicle comes with an advertised 400 mile battery range, and the solar panels on the hood, dash, roof, and rear hatch claim to offer up to 40 miles per day off of solar charging alone (weather-permitting, I'm sure).
+
+=> https://aptera.us 1: Aptera
+=> https://slingshot.polaris.com/en-us/stories/autocycle/ 2: Polaris Slingshot
+
+Plus it totally looks like it can fly:
+
+Aptera Launch Edition with driver door and rear hatch open[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1723404618.jpg 1: Aptera Launch Edition with driver door and rear hatch open
+
+The company has been posting regular progress updates on their YouTube channel[1] and anticipates moving onto the full production phase by the end of the year. The Launch Edition Aptera is expected to start at 30,700,andthey′retakingrefundable100 reservations to hold your spot in line.
+
+=> https://www.youtube.com/playlist?list=PLXjDu2Fyg3KNM9Cb5XHDjd-L1kLSo-Ocn 1: their YouTube channel
+
+I thought the Aptera could be an interesting short-range commuter vehicle so I went ahead and reserved one. I'll have a year or so before the anticipated delivery to decide if I really want to go through with the purchase, but for now I'm PRETTY EXCITED about the idea.
+
+*(If you're curious enough to reserve one yourself, you can use my referral link[1] to get $30 off the reservation price.)*
+
+=> https://url.jbowdre.lol/aptera-referral 1: use my referral link
+
+### Found a silver bullet
+
+I had seen Jack[1] mention the SilverBullet[2] note-keeping app a bit over the past couple of weeks and finally had a chance to try it out for myself. And, um, **wow** it's good.
+
+=> https://social.lol/@jbaty 1: Jack
+=> https://silverbullet.md 2: SilverBullet
+
+It took me all of five minutes to realize that SilverBullet would be the new home for my notes (bye, Obsidian!). I wrote a little about my initial experience with it here[1], and I've continued to use it heavily over the weekend. Being able to pick up and write on *any* device with a web browser without having to worry about syncing content between devices is such a relief.
+
+=> /is-silverbullet-the-note-keeping-silver-bullet/ 1: here
+
+In fact, I'm writing *this very post* in SilverBullet, after quickly setting up a weekly post template and a couple of custom functions to power it.
+
+SilverBullet template for generating weekly posts (like this one)[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1723404646.png 1: SilverBullet template for generating weekly posts (like this one)
+
+SilverBullet scripts "weekEnd" and "lastWeekEnd"[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1723404660.png 1: SilverBullet scripts "weekEnd" and "lastWeekEnd"
+
+I'll probably write up a runtimeterror[1] post about my setup for self-hosting SilverBullet soon.
+
+=> https://runtimeterror.dev 1: runtimeterror
+
+### Installed Tailscale on a robot
+
+Speaking of things I intend to write up in detail soon, I did a bit of hacking yesterday...
+
+Completely disassembled robot vacuum with the motherboard upright, connected to a laptop with a red USB cable[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1723404678.jpg 1: Completely disassembled robot vacuum with the motherboard upright, connected to a laptop with a red USB cable
+
+I followed this guide[1] to root my Roborock S5 Max robotic vacuum and install Valetudo[2] on it for local-only control. This lets me manage the robot *completely* with a web interface running directly on the robot itself, without needing any internet connectivity. Valetudo's web interface is responsive, too, so it works equally well from a mobile phone or from a laptop computer.
+
+=> https://valetudo.cloud/pages/installation/roborock.html#fel 1: this guide
+=> https://valetudo.cloud/ 2: Valetudo
+
+This setup also affords a direct connection to my Home Assistant instance, which is pretty neat. That will let me create smart schedules and automations for the robot based on what else is going on in the home.
+
+Oh, and because I ` https://srsbsns.lol/this-week-2024-08-11/ 📡 Originally posted on srsbsns.lol 
