@@ -1,0 +1,64 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-08-25 1: last weekly status
+
+### Highlights
+
+- One of my big highlights of this past week has been watching the live stream of the Pathfinder orbiter[1] being returned to the shuttle stack at the U.S. Space and Rocket Center[2] here in town. The shuttle replica was dismantled for refurbishment back in 2021 and the city's skyline just wasn't the same without it. Screenshot 2024-09-01 21[3]
+=> https://social.lol/@jbowdre/113040027541665211 1: watching the live stream of the Pathfinder orbiter
+=> https://www.rocketcenter.com/ 2: U.S. Space and Rocket Center
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1725244396.png 3: Screenshot 2024-09-01 21
+
+- I've been writing a lot of documentation and conducting training sessions to help prepare my coworkers for taking on my projects once I leave in a couple of weeks. My list of topics to cover keeps growing; I've apparently done a *lot* in the 5+ years I've been at my current role.
+
+- After years of riding with flat pedals, I bought my first set of "clipless" pedals[1] and some very stylish shoes[2] to go with them. Clipping in and out took a little bit of getting used to, but I've put about 30 miles on the bike with the new setup and am really enjoying it. (Know what else takes some getting used to? Bike terminology. You clip in your toes to clipless pedals because they don't have toe clips.)
+
+=> https://www.lookcycle.com/us-en/products/pedals/mtb/cross-country/x-track 1: "clipless" pedals
+=> https://www.trekbikes.com/us/en_US/bike-clothing/cycling-shoes/mountain-bike-shoes/bontrager-evoke-mountain-bike-shoe/p/21728/?colorCode=bluedark_yellow 2: very stylish shoes
+
+### I learned...
+
+- If you have a Linux system joined to an AD domain with SSSD, you can use `sss_override`[1] to *override* a user's attributes on the local machine. For instance, if a particular user wants to default to a different shell that can be set with `sudo sss_override add-user john --shell /usr/bin/fish`. (Of course, it would be better to set this in the directory itself, but this override will do in a pinch.)
+
+=> https://www.systutorials.com/docs/linux/man/8-sss_override/ 1: `sss_override`
+
+### I tinkered...
+
+- I started building the LEGO International Space Station[1]. Look how cute the smol shuttle[2] is! c5558b2672d2e832[3]
+=> https://www.lego.com/en-us/product/international-space-station-21321 1: LEGO International Space Station
+=> https://social.lol/@jbowdre/113064159060253312 2: how cute the smol shuttle
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre-1725244442.jpg 3: c5558b2672d2e832
+
+- I'm still playing with Portainer; it's made it so much easier to manage the Docker containers I have scattered across several remote hosts.
+
+### I consumed...
+
+- We finished Mayfair Witches[1], and I thought it was pretty enjoyable.
+=> https://www.imdb.com/title/tt15428778/ 1: Mayfair Witches
+
+- We started and finished The Accident[1], which was good but also a bit frustrating in the way all the characters consistently made the worst possible choices.
+
+=> https://www.imdb.com/title/tt30068042/ 1: The Accident
+
+- My wife was appalled to learn that I had never watched the original Alien[1] movie so we corrected that. *Why is the inside of the ship so wet??* - We also watched Aliens[2] to see if things would go better with more than one alien; they did not (okay, I guess the crew survival rate did go up so that's probably something). I imagine we'll work through the rest of the franchise this week.
+
+=> https://www.imdb.com/title/tt0078748/ 1: Alien
+=> https://www.imdb.com/title/tt0090605/ 2: Aliens
+
+- I finished reading Apostles of Mercy by Lindsay Ellis[1]. One of my favorite things about good science fiction is how it can question and explore human concepts and prejudices, and this series does a great job of that.
+
+=> https://openlibrary.org/works/OL38083372W/Apostles_of_Mercy 1: Apostles of Mercy by Lindsay Ellis
+
+- I'm not sure what I'm going to start next yet.
+### See also:
+
+- Matthew Green wrote about [why Telegram shouldn't *really* be considered a secure messaging app](https://blog.cryptographyengineering.com/2024/08/25/telegram-is-not-really-an-encrypted-messaging-app/).
+
+- Julia Evans shared some of her favorite things about the fish shell[1], and a lot her points line up with what initially drew me to fish as well.
+=> https://gist.github.com/jvns/2eeb3e2ddc46e3618b6066cfeb665baf 1: some of her favorite things about the fish shell
+
+- The developer of that fun One Million Checkboxes site discovered a group of teen hackers that did some pretty clever stuff with his game[1].
+
+=> https://eieio.games/essays/the-secret-in-one-million-checkboxes/ 1: a group of teen hackers that did some pretty clever stuff with his game
+
+=> https://srsbsns.lol/this-week-2024-09-01/ 📡 Originally posted on srsbsns.lol 
