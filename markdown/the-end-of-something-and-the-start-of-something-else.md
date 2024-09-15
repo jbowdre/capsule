@@ -4,7 +4,7 @@ published: "2024-09-15T01:28:42.263992Z"
 updated: "2024-09-15T01:28:42.263992Z"
 ---
 
-Yesterday I turned in my (employee) badge and <del>gun</del> work iPhone and [left the office I've occupied for nearly six years](https://social.lol/@jbowdre/113132004724346487) for the last time.
+Yesterday I turned in my (employee) badge and gun work iPhone and [left the office I've occupied for nearly six years](https://social.lol/@jbowdre/113132004724346487) for the last time.
 
 Working IT at the corporate level of a large conglomerate was certainly interesting. The sheer scale of the environment I helped to manage was staggering - thousands of virtual machines running on hundreds of hypervisor hosts at scores of sites around the globe. The corporation grew through acquisition so there was a constant influx of new businesses and sites, each bringing their own semi-unique technical debt to add to the corporation's. Wrangling that felt like such an uphill battle at times.
 
