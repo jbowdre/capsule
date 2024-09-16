@@ -1,0 +1,53 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-09-08 1: last weekly status
+
+### Highlights
+
+- This week was kind of a blur as a I scrambled to tie up remaining loose ends leading up to my last day at work. It took a lot of doing but I'm pleased with how I left things; hopefully all the stuff I built won't fall apart *too* quickly without me.
+
+- My (now former) boss surprised me with a letter of recommendation that says some really nice things about me. That feels pretty good.
+- I'm expecting a sizeable payout for my (extensive) unused vacation time so I splurged on some bike gear: a pair of Garmin Rally XC200[1] power-sensing pedals. We got some weather toward the end of the week so I haven't had a chance to ride with them yet, but I'm really looking forward to tracking my power data starting tomorrow.
+- I ended the week with a much-needed autocross race[2]. (I always get a bit twitchy when it's been too long between events.)
+
+=> https://www.garmin.com/en-US/p/658594/pn/010-02388-04 1: Garmin Rally XC200
+=> /autocross-2024-09-15/ 2: autocross race
+
+### I wrote...
+
+- I reflected a bit[1] on the things I accomplished in my last job as I get ready to start a new one. It was pretty satisfying to look back at the impact I had there.
+=> /the-end-of-something-and-the-start-of-something-else/ 1: reflected a bit
+
+### I consumed...
+
+- We watched the final installment of The Grand Tour[1]: *One for the Road*. I've been following the vehicular adventures of Clarkson, Hammond, and May for twenty years, and this last hurrah was a good one to end on. But man, I'm going to miss watching those guys. (Also, Zimbabwe is stunning!) - We started Only Murders in the Building[2] and I'm enjoying it quite a lot. Steve Martin and Martin Short are such a delight together.
+
+=> https://www.imdb.com/title/tt5712554/ 1: The Grand Tour
+=> https://www.imdb.com/title/tt11691774/ 2: Only Murders in the Building
+
+- My wife and I continued our little Alien marathon[1] with Alien: Covenant[2]. I guess now we'll have to go see Alien: Romulus[3] soon.
+=> https://social.lol/@jbowdre/113063508949466862 1: Alien marathon
+=> https://www.imdb.com/title/tt2316204 2: Alien: Covenant
+=> https://www.imdb.com/title/tt18412256/ 3: Alien: Romulus
+
+- We also watched Elvira: Mistress of the Dark[1]. What a treat!
+- I finished reading Jason Pargin's If This Book Exists, You're in the Wrong Universe[2], and started reading Consider Phlebas[3] by Iain M. Banks.
+
+=> https://www.imdb.com/title/tt0095088/ 1: Elvira: Mistress of the Dark
+=> https://app.thestorygraph.com/books/ebe5fe68-4aad-4dd7-9df0-30b00405f6af 2: If This Book Exists, You're in the Wrong Universe
+=> https://app.thestorygraph.com/books/0c71176b-7de6-4f30-9462-aebeecf944a0 3: Consider Phlebas
+
+### See also:
+
+- Josh Lee shared how he builds a declarative Homelab with NixOS and Proxmox[1].
+=> https://www.joshuamlee.com/nixos-proxmox-vm-images/ 1: builds a declarative Homelab with NixOS and Proxmox
+
+- Josh W. Comeau wrote about The Undeniable Utility of CSS `:has`[1] and The Surprising Truth About Pixels and Accessibility[2].
+- I stumbled across stripe.dev[3] and it quickly became one of my favorite web sites. It's packed with secrets and Easter eggs[4], and is just a ton of fun to play around with.
+
+=> https://www.joshwcomeau.com/css/has/ 1: The Undeniable Utility of CSS `:has`
+=> https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/ 2: The Surprising Truth About Pixels and Accessibility
+=> https://stripe.dev/ 3: stripe.dev
+=> https://x.com/devinjacoviello/status/1833521766146445830 4: secrets and Easter eggs
+
+=> https://srsbsns.lol/this-week-2024-09-15/ 📡 Originally posted on srsbsns.lol 
