@@ -1,0 +1,70 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-09-22 1: last weekly status
+
+### Highlights
+
+- This was my second week at the new job and I feel like I'm starting to settle in. During the IT Department's weekly meeting, I was told that I have better hair than most of the women in the office. Just wait until they find out I'm pretty good at computers, too! On that note, I do have a small project to work on, and I've scheduled meetings with some development teams this coming week so I can learn how they build things (and how I can build things to help them build things). I'm excited!
+- I do kind of miss the walking route(s) I had at my old job. There don't seem to be any good routes at the new one, but there *are* four flights of stairs between the parking lot and my desk. So I've been trying to walk those more to get some physical activity throughout the day.
+
+- After last weekend's 40(ish)-mile ride, I took a few light rides to recover. And then got back into a threshold training ride on Thursday that *really* kicked my butt. I guess I still had some more recovery to do.
+
+- I skipped Friday and Saturday due to weather, but went out for a relaxing 22-mile ride this morning and felt great. I was chased (briefly) by a dog that appeared out of nowhere to say hi and I saw a person looking *absolutely frickin' ridiculous* on an ellptical bike.
+
+### I learned...
+
+- I figured out how to trigger a GitHub Actions workflow from another repo[1].
+=> https://notes.runtimeterror.dev/CICD/Trigger-remote-workflow-with-GitHub-Actions 1: trigger a GitHub Actions workflow from another repo
+
+- It turns out that `{[]}` and `{{}}` don't mean the same thing in SilverBullet configs.
+
+### I tinkered...
+
+- I deployed an Ubuntu 24.04 VM on my homelab to start playing with podman[1] and specifically Quadlet[2] for managing containers with systemd. It seems pretty neat so far, and I really like the podman approach. I hope to find more time to play with it in the coming weeks.
+=> https://podman.io/ 1: podman
+=> https://www.redhat.com/sysadmin/quadlet-podman 2: Quadlet
+
+### I wrote...
+
+- I wrote a detailed post about Publishing (Selected) SilverBullet Notes with Quartz and GitHub Actions[1].
+=> https://runtimeterror.dev/publish-silverbullet-notes-quartz/ 1: Publishing (Selected) SilverBullet Notes with Quartz and GitHub Actions
+
+### I consumed...
+
+- I'm reading Consider Phlebas[1] by Iain M. Banks.
+=> https://app.thestorygraph.com/books/0c71176b-7de6-4f30-9462-aebeecf944a0 1: Consider Phlebas
+
+- We're binging season 4 of Only Murders in the Building[1], and really enjoying it. But we only have a few episodes left before we catch up with the weekly release schedule and that's going to be a rough adjustment.
+- We're watching a *lot* of Drag Race as the episodes are released: Global All Stars[2], España[3] Season 4, and UK[4] Season 6. We're also really looking forward to the new season of Dragula[5].
+
+=> https://www.imdb.com/title/tt11691774/ 1: Only Murders in the Building
+=> https://www.imdb.com/title/tt32919055/ 2: Global All Stars
+=> https://www.imdb.com/title/tt13606528/ 3: España
+=> https://www.imdb.com/title/tt9780442/ 4: UK
+=> https://www.imdb.com/title/tt6289132/ 5: Dragula
+
+- Speaking of delightfully camp and sort of spooky, we also watched Vamps[1] and Lisa Frankenstein[2].
+=> https://www.imdb.com/title/tt1545106/ 1: Vamps
+=> https://www.imdb.com/title/tt21188080/ 2: Lisa Frankenstein
+
+- I've been listening to a playlist I put together[1] to get ready for a 3-day metal festival next weekend. I just grabbed the top four tracks from each performer, and that added up to over **twenty hours** of music. So I imagine I'll be jamming to that all this week, too. (I just hope this festival goes better than the last one[2] we attended.)
+
+=> https://tidal.com/browse/playlist/d5051feb-43f0-461e-b303-8b990a95fdda 1: a playlist I put together
+=> https://loudwire.com/blue-ridge-rock-festival-2023-storm-evacuation-camping-parking-problems/ 2: the last one
+
+### See also:
+
+- NIST published revised password guidelines[1]: complexity requirements ("x character classes") are out, and minimum lengths are longer. This is great! As xkcd illustrated[2], the previous complexity requirements trained use to use "passwords that are hard for humans to remember but easy for computers to guess."
+=> https://www.infosecurity-magazine.com/news/nist-scraps-passwords-mandatory/ 1: NIST published revised password guidelines
+=> https://xkcd.com/936/ 2: xkcd illustrated
+
+- Molly White wrote about adopting POSSE[1] (writing content on your own site and sharing it elsewhere), and Jedda wrote about turning around[2] (collecting content published elsewhere and sharing it on your own site). 🤝
+- Josh W. Comeau updated a deep-dive on the hands-free coding setup[3] he used when a repetitive-strain injury prevented him from using a keyboard.
+- Robert Birming wrote about what he would do if he were you[4] (or rather, why that expression is kind of pointless and dumb).
+
+=> https://www.citationneeded.news/posse/ 1: wrote about adopting POSSE
+=> https://notes.jeddacp.com/micro-thoughts-explained/ 2: wrote about turning around
+=> https://www.joshwcomeau.com/blog/hands-free-coding/ 3: hands-free coding setup
+=> https://birming.com/youre-not-me/ 4: what he would do if he were you
+
+=> https://srsbsns.lol/this-week-2024-09-29/ 📡 Originally posted on srsbsns.lol 
