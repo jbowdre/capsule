@@ -1,0 +1,67 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-09-29 1: last weekly status
+
+### Highlights
+
+- We celebrated our 12-year wedding anniversary in typical fashion: by attending a 3-day metal (music) festival[1]. More on that in its own post soon.
+=> https://social.lol/@jbowdre/113251813719437167 1: attending a 3-day metal (music) festival
+
+```
+- *Also that's my excuse for this post being a day late.*
+```
+- Also, my wife surprised me with a new 3D printer - the [Bambu Lab P1S Combo](https://us.store.bambulab.com/products/p1s) (with AMS). This printer is such an awesome improvement over the "FrankenEnder" Ender 3 Pro I had been using (intermittently lately, given how frustrating all of my modifications had made the printer). Right out of the box, the P1S printed the best Benchy I've ever printed, and in record time, too. Being able to browse for models and print them right from my phone is super handy.
+### I learned...
+
+- After quite a bit of tinkering, I figured out a way to use Gitlab CI/CD to retrieve multiple secrets from Vault[1] without having to pay for the Premium/Ultimate versions of Gitlab. (The paid versions do have a Vault integration included which would have made this a *lot* easier...).
+
+=> https://notes.runtimeterror.dev/CICD/Retrieve-secrets-from-Vault-with-Gitlab-%28for-free%29 1: Gitlab CI/CD to retrieve multiple secrets from Vault
+
+- I also learned that you can use some extended YAML features in Docker Compose files[1] to reduce repetition and avoid repeating yourself. 😉
+=> https://notes.runtimeterror.dev/Containers/Use-YAML-features-in-Docker-Compose 1: some extended YAML features in Docker Compose files
+
+### I tinkered...
+
+- During my ongoing exploration of Portainer, I discovered that it supports deploying and managing container stacks from a Git repository[1], enabling me to GitOps some of the services I host out of my homelab[2]. Along the way I decided to track my Compose configs in a public repo[3] in case anyone wants to see how I'm running certain things.
+=> https://docs.portainer.io/user/docker/stacks/add#option-3-git-repository 1: deploying and managing container stacks from a Git repository
+=> https://runtimeterror.dev/homelab 2: homelab
+=> https://github.com/jbowdre/compositions/ 3: public repo
+
+### I consumed...
+
+- We listened to so much great music at the festival this weekend! Some highlights for us included Blindside, Catch 22, The Devil Wears Prada, Dying Wish, Emery, Evergreen Terrace, Haste The Day, Mindforce, Oh Sleeper, Shai Hulud, Silent Planet, and Underoath.
+- I'm reading Consider Phlebas[1] by Iain M. Banks.
+- We started season 6(66) of The Boulet Brothers' Dragula[2], adding it to our extensive list of drag race watches: Global All Stars[3], España[4] Season 4, and UK[5] Season 6
+- We also began watching Nobody Wants This[6]; Kristen Bell is delightful, as always.
+
+=> https://app.thestorygraph.com/books/0c71176b-7de6-4f30-9462-aebeecf944a0 1: Consider Phlebas
+=> https://www.imdb.com/title/tt6289132/ 2: The Boulet Brothers' Dragula
+=> https://www.imdb.com/title/tt32919055/ 3: Global All Stars
+=> https://www.imdb.com/title/tt13606528/ 4: España
+=> https://www.imdb.com/title/tt9780442/ 5: UK
+=> https://www.imdb.com/title/tt26933824/ 6: Nobody Wants This
+
+### See also:
+
+- Jeremy Keith described his approach[1] for preventing (or at least strongly discouraging) automated sign-ups.
+=> https://adactio.com/journal/21457 1: described his approach
+
+- Mike Hall wrote about recently rediscovering metal music[1], which seemed pretty timely given what I was up to this weekend. 🤘
+
+=> https://mph.puddingtime.org/post/on-metal 1: recently rediscovering metal music
+
+- Lewis Dale celebrated[1] riding over **2500km** and raising **£390** for Cyclists Fighting Cancer[2] this summer. That's awesome! - Lou Plummer shared some of his Memorable Internet Moments[3]. I could *almost* hear the modem screeching while loading his post.
+
+=> https://lewisdale.dev/post/finishing-up-my-summer-of-fundraising/ 1: celebrated
+=> https://cyclistsfc.org.uk/ 2: Cyclists Fighting Cancer
+=> https://louplummer.lol/memorable-internet-moments/ 3: Memorable Internet Moments
+
+- Dave Kiss shared how he used ChatGPT, JavaScript, and a can of WD-40 to win $2750 in a contest[1].
+=> https://davekiss.com/blog/how-i-won-2750-using-javascript-ai-and-a-can-of-wd-40 1: how he used ChatGPT, JavaScript, and a can of WD-40 to win $2750 in a contest
+
+- Jedda wrote about her \[struggles with her HOA(s)\] and some of their absurd rules.
+- Keenan penned a powerful post[1] that I've been trying (and failing) to sum up for the past twenty minutes but like seriously it's some of the best writing on the internet right now so just please go read it.
+
+=> https://gkeenan.co/avgb/ive-missed-sam-for-a-very-long-time-or-pick-your-battles/ 1: penned a powerful post
+
+=> https://srsbsns.lol/this-week-2024-10-06/ 📡 Originally posted on srsbsns.lol 
