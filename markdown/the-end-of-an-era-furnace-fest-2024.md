@@ -4,7 +4,7 @@ published: "2024-10-13T20:54:55.706424Z"
 updated: "2024-10-13T20:54:55.706424Z"
 ---
 
-My wife and I recently celebrated our 12th wedding anniversary by attending [Furnace Fest](https://en.wikipedia.org/wiki/Furnace_Fest), a 3-day hardcore/metal music festival at [Sloss Furnaces](https://en.wikipedia.org/wiki/Sloss_Furnaces) in the <del>Metal</del> Iron City, Birmingham, Alabama.
+My wife and I recently celebrated our 12th wedding anniversary by attending [Furnace Fest](https://en.wikipedia.org/wiki/Furnace_Fest), a 3-day hardcore/metal music festival at [Sloss Furnaces](https://en.wikipedia.org/wiki/Sloss_Furnaces) in the Metal Iron City, Birmingham, Alabama.
 
 ![A large industrial complex features towering rust-colored structures, including a water tower labeled "SLOSS" in bold letters. Multiple smokestacks rise against a sunset sky, with a large crane arm visible in the foreground.](https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre/mp-edit-1-1.webp)
 
@@ -12,7 +12,7 @@ Attending this festival was pretty special for my wife and I. Not only did it ta
 
 You see, several years before we got married, she and I drove to see Emery play in Nashville. We didn't realize it at the time, but that was just the first of many shows we'd see together - and, in fact, that show kind of marked the start of our relationship even though we didn't really start "going steady" until some time later. So the chance to see Emery again on our anniversary? Yeah, we jumped at that.
 
-This year's Furnace Fest was special for a lot of other folks, too, as the festival has some history of its own. The first Furnace Fest was in 2000 and it ran annually for four years, hosting a number of established and emerging punk, metal, and hardcore performers and attracting scene kids from all around. Some shakeups happened and the festival died off after 2003, but the original organizers brought it back to life in 2021 and resumed the annual schedule. Many of the emerging artists who had gotten their start playing at small festivals like Furnace Fest in those earlier years were now properly established bands who returned to play the new iteration of the festival, and the now-grown scene <del>kids</del> adults came back to head bang with their friends from high school.
+This year's Furnace Fest was special for a lot of other folks, too, as the festival has some history of its own. The first Furnace Fest was in 2000 and it ran annually for four years, hosting a number of established and emerging punk, metal, and hardcore performers and attracting scene kids from all around. Some shakeups happened and the festival died off after 2003, but the original organizers brought it back to life in 2021 and resumed the annual schedule. Many of the emerging artists who had gotten their start playing at small festivals like Furnace Fest in those earlier years were now properly established bands who returned to play the new iteration of the festival, and the now-grown scene kids adults came back to head bang with their friends from high school.
 
 For many, Furnace Fest was as much about the community of music enthusiasts as it was the music itself (as this [very shouty Reddit user can attest](https://www.reddit.com/r/FurnaceFest/comments/1fzuxl7/my_furnace_fest_experience/)), and that's a pretty unique thing within the world of music festivals these days.
 
