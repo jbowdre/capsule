@@ -1,0 +1,76 @@
+*Here's what I've been up to since the last weekly status[1]...*
+
+=> /this-week-2024-10-06 1: last weekly status
+
+### Highlights
+
+- Much of this week has been focused on recovering from last week. Furnace Fest was awesome[1] but I brought home a festival flu ("acute sinusitis") in addition to the rather-expected festival fatigue. I got some drugs on Friday and started to feel a lot better (and my COVID-free streak continues!).
+=> /the-end-of-an-era-furnace-fest-2024/ 1: Furnace Fest was awesome
+
+- I had started playing The Last of Us Part I[1] back before I really ramped up my job search (and then started playing the far-less-entertaining ATS game). Now that I'm kind of settled in at the new gig I thought I would get back into The Last Of Us... but when I powered on my Steam Deck for the first time in a few months I found that it couldn't connect to the internet. I initially assumed it was related to how I had set up Tailscale on the Deck[2] but after removing Tailscale realized the problem was actually with an old ControlD[3] profile I wasn't using anymore. So I removed that, reinstalled Tailscale (which now supports ControlD natively anyway[4], and was able to update the system and all my games. And *then* I could get back into helping Joel and Ellie navigate a zombie-infested hellscape. This game is **really** good.
+
+=> https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/ 1: The Last of Us Part I
+=> https://github.com/tailscale-dev/deck-tailscale 2: how I had set up Tailscale on the Deck
+=> https://controld.com/ 3: ControlD
+=> https://docs.controld.com/docs/tailscale-integration) 4: supports ControlD natively anyway
+
+- My wife bought me a utility kilt[1]. I've never worn one before but I kind of dig it (and the breeze is rather nice).
+=> https://www.damnnearkiltem.com/products/greenhorn-utility-kilt-black 1: a utility kilt
+
+- I ran *shuffled* in a grueling 0.12km marathon [*microthon*](https://merrimackhall.com/rocket-city-microthon/) to support Merrimack Hall[1], which offers arts-related classes and activities for special needs children and adults. (Also, I wore my new kilt. I guess I'm a kilt person now.) - I printed basically the best thing I've ever printed[2]. This new printer is really good.
+
+=> https://merrimackhall.com/ 1: Merrimack Hall
+=> https://makerworld.com/en/models/595107 2: basically the best thing I've ever printed
+
+A small, blue 3D-printed toy shaped like a whale shark with segmented body parts rests on a dark, textured surface. It features white spots and large black eyes. The background includes a gray wall and electronics.[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre/b7c220bdb2333414.webp 1: A small, blue 3D-printed toy shaped like a whale shark with segmented body parts rests on a dark, textured surface. It features white spots and large black eyes. The background includes a gray wall and electronics.
+
+### I tinkered...
+
+- I started playing a bit with Heimdall[1], which provides a sort of self-hosted "application dashboard" which can be set as a browser's home or new tab page to provide quick-and-easy access to your most-used web apps and sites. Heimdall makes it simple to create shortcuts, but for certain "enhanced" apps[2] it can also pull live statistics from the app's API. I think that's pretty slick:
+=> https://heimdall.site/ 1: Heimdall
+=> https://apps.heimdall.site/applications/enhanced 2: "enhanced" apps
+
+This image displays a dashboard interface with four application status cards overlaid on a serene nighttime background featuring a starry sky, calm water, and a colorful hot air balloon. The cards represent different services: Immich (photo/video storage), PiAware (aircraft tracking), Portainer (container management), and Uptime Kuma (uptime monitoring), each showing key metrics. The contrast between the technical data and the tranquil backdrop creates an aesthetically pleasing and functional design.[1]
+
+=> https://bear-images.sfo2.cdn.digitaloceanspaces.com/jbowdre/29-1.webp 1: This image displays a dashboard interface with four application status cards overlaid on a serene nighttime background featuring a starry sky, calm water, and a colorful hot air balloon. The cards represent different services: Immich (photo/video storage), PiAware (aircraft tracking), Portainer (container management), and Uptime Kuma (uptime monitoring), each showing key metrics. The contrast between the technical data and the tranquil backdrop creates an aesthetically pleasing and functional design.
+
+### I wrote...
+
+- It took me all week, but (as teased above) I finally posted more about my Furnace Fest experience[1].
+=> /the-end-of-an-era-furnace-fest-2024/ 1: more about my Furnace Fest experience
+
+### I consumed...
+
+- I've been listening to a bit of Starset[1] and Poppy[2] lately.
+=> https://musicthread.app/link/2nIChlVFb3OK1t1rruR46K7IYaK 1: Starset
+=> https://musicthread.app/link/2nOs88GsqtX5kLSJrzLxCj9Z0gq 2: Poppy
+
+- I'm (still) reading Consider Phlebas[1] by Iain M. Banks.
+- We're watching a lot of drag: Dragula[2] Season 6, Drag Race Global All Stars[3], Drag Race España[4] Season 4, and Drag Race UK[5] Season 6.
+
+=> https://app.thestorygraph.com/books/0c71176b-7de6-4f30-9462-aebeecf944a0 1: Consider Phlebas
+=> https://www.imdb.com/title/tt6289132/ 2: Dragula
+=> https://www.imdb.com/title/tt32919055/ 3: Drag Race Global All Stars
+=> https://www.imdb.com/title/tt13606528/ 4: Drag Race España
+=> https://www.imdb.com/title/tt9780442/ 5: Drag Race UK
+
+- We finished binging Nobody Wants This[1], and started on [Kevin Can F\*\*k Himself](https://www.imdb.com/title/tt9257258/), which takes "a look at the secret life of a sitcom wife." - And (as mentioned above) I'm *finally* playing The Last of Us Part I[2] again.
+
+=> https://www.imdb.com/title/tt26933824/ 1: Nobody Wants This
+=> https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/ 2: The Last of Us Part I
+
+### See also:
+
+- Blake Watson unveiled his HTML for People[1] project which explains how normal people can create a website with HTML. If you've always wanted to make a website but didn't know how to get started, this will help.
+=> https://htmlforpeople.com/ 1: HTML for People
+
+- The internet panicked a bit over Gareth Edwards' post, The Disappearance of an Internet Domain[1], which pointed out how political restructuring in the real world might have serious implications for the digital one. However this plays out in reality, it should be a (another) wake-up call that trendy two-letter ccTLDs might not always be the best choice.
+- Nicole Tietz-Sokalsaya wrote about how software licensing can be joyful (and legally dubious)[2] and unveiled the Gay Agenda License[3].
+
+=> https://every.to/p/the-disappearance-of-an-internet-domain 1: The Disappearance of an Internet Domain
+=> https://ntietz.com/blog/licensing-joy-gal/ 2: software licensing can be joyful (and legally dubious)
+=> https://gal.gay/ 3: Gay Agenda License
+
+=> https://srsbsns.lol/this-week-2024-10-13/ 📡 Originally posted on srsbsns.lol 
